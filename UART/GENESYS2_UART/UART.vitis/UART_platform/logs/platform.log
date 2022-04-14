@@ -1,0 +1,1040 @@
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-04-11.16:13:11::SCWPlatform::Opened new HwDB with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWWriter::formatted JSON is {
+	"platformName":	"UART_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"UART_platform",
+	"platHandOff":	"D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/TOP_UART_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_UART_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-04-11.16:13:11::SCWWriter::formatted JSON is {
+	"platformName":	"UART_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"UART_platform",
+	"platHandOff":	"D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/TOP_UART_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_UART_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"UART_platform",
+	"systems":	[{
+			"systemName":	"UART_platform",
+			"systemDesc":	"UART_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"UART_platform"
+		}]
+}
+TRACE::2022-04-11.16:13:11::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-04-11.16:13:11::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2022-04-11.16:13:11::SCWWriter::formatted JSON is {
+	"platformName":	"UART_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"UART_platform",
+	"platHandOff":	"D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/TOP_UART_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_UART_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"UART_platform",
+	"systems":	[{
+			"systemName":	"UART_platform",
+			"systemDesc":	"UART_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"UART_platform"
+		}]
+}
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:11::SCWDomain::checking for install qemu data   : 
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:11::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:11::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:11::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-04-11.16:13:11::SCWMssOS::No sw design opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:11::SCWMssOS::mss does not exists at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:11::SCWMssOS::Creating sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:11::SCWMssOS::Adding the swdes entry, created swdb D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss with des name D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:11::SCWMssOS::updating the scw layer changes to swdes at   D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:11::SCWMssOS::Writing mss at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:11::SCWMssOS::Completed writing the mss file at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-04-11.16:13:11::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-04-11.16:13:11::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-04-11.16:13:11::SCWMssOS::Completed writing the mss file at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-04-11.16:13:11::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-04-11.16:13:13::SCWMssOS::Saving the mss changes D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Adding the swdes entry, mss present, able to open swdb D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-04-11.16:13:13::SCWMssOS::Writing the mss file completed D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Commit changes completed.
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWWriter::formatted JSON is {
+	"platformName":	"UART_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"UART_platform",
+	"platHandOff":	"D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/TOP_UART_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_UART_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"UART_platform",
+	"systems":	[{
+			"systemName":	"UART_platform",
+			"systemDesc":	"UART_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"UART_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"ae63f4ab74b6a0048dc2b0d8fe169a58",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-04-11.16:13:13::SCWPlatform::Started generating the artifacts platform UART_platform
+TRACE::2022-04-11.16:13:13::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-04-11.16:13:13::SCWPlatform::Started generating the artifacts for system configuration UART_platform
+LOG::2022-04-11.16:13:13::SCWSystem::Checking the domain standalone_domain
+LOG::2022-04-11.16:13:13::SCWSystem::Not a boot domain 
+LOG::2022-04-11.16:13:13::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-04-11.16:13:13::SCWDomain::Generating domain artifcats
+TRACE::2022-04-11.16:13:13::SCWMssOS::Generating standalone artifcats
+TRACE::2022-04-11.16:13:13::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Completed writing the mss file at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-04-11.16:13:13::SCWMssOS::Mss edits present, copying mssfile into export location D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-04-11.16:13:13::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-04-11.16:13:13::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-04-11.16:13:13::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-04-11.16:13:13::SCWMssOS::Copying to export directory.
+TRACE::2022-04-11.16:13:13::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-04-11.16:13:13::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-04-11.16:13:13::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-04-11.16:13:13::SCWSystem::Completed Processing the sysconfig UART_platform
+LOG::2022-04-11.16:13:13::SCWPlatform::Completed generating the artifacts for system configuration UART_platform
+TRACE::2022-04-11.16:13:13::SCWPlatform::Started preparing the platform 
+TRACE::2022-04-11.16:13:13::SCWSystem::Writing the bif file for system config UART_platform
+TRACE::2022-04-11.16:13:13::SCWSystem::dir created 
+TRACE::2022-04-11.16:13:13::SCWSystem::Writing the bif 
+TRACE::2022-04-11.16:13:13::SCWPlatform::Started writing the spfm file 
+TRACE::2022-04-11.16:13:13::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-04-11.16:13:13::SCWPlatform::Completed generating the platform
+TRACE::2022-04-11.16:13:13::SCWMssOS::Saving the mss changes D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-11.16:13:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-11.16:13:13::SCWMssOS::Commit changes completed.
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWWriter::formatted JSON is {
+	"platformName":	"UART_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"UART_platform",
+	"platHandOff":	"D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/TOP_UART_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_UART_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"UART_platform",
+	"systems":	[{
+			"systemName":	"UART_platform",
+			"systemDesc":	"UART_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"UART_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"ae63f4ab74b6a0048dc2b0d8fe169a58",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-04-11.16:13:13::SCWPlatform::updated the xpfm file.
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Saving the mss changes D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-11.16:13:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-11.16:13:13::SCWMssOS::Commit changes completed.
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWWriter::formatted JSON is {
+	"platformName":	"UART_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"UART_platform",
+	"platHandOff":	"D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/TOP_UART_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_UART_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"UART_platform",
+	"systems":	[{
+			"systemName":	"UART_platform",
+			"systemDesc":	"UART_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"UART_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"ae63f4ab74b6a0048dc2b0d8fe169a58",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Saving the mss changes D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-11.16:13:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-11.16:13:13::SCWMssOS::Commit changes completed.
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWWriter::formatted JSON is {
+	"platformName":	"UART_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"UART_platform",
+	"platHandOff":	"D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/TOP_UART_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_UART_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"UART_platform",
+	"systems":	[{
+			"systemName":	"UART_platform",
+			"systemDesc":	"UART_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"UART_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"ae63f4ab74b6a0048dc2b0d8fe169a58",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-04-11.16:13:13::SCWMssOS::Saving the mss changes D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-11.16:13:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-11.16:13:13::SCWMssOS::Commit changes completed.
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWWriter::formatted JSON is {
+	"platformName":	"UART_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"UART_platform",
+	"platHandOff":	"D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/TOP_UART_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_UART_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"UART_platform",
+	"systems":	[{
+			"systemName":	"UART_platform",
+			"systemDesc":	"UART_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"UART_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"ae63f4ab74b6a0048dc2b0d8fe169a58",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-04-11.16:13:13::SCWPlatform::Clearing the existing platform
+TRACE::2022-04-11.16:13:13::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-04-11.16:13:13::SCWMssOS::Removing the swdes entry for  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWSystem::Clearing the domains completed.
+TRACE::2022-04-11.16:13:13::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform location is D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Removing the HwDB with name D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened new HwDB with name TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:13::SCWReader::Active system found as  UART_platform
+TRACE::2022-04-11.16:13:13::SCWReader::Handling sysconfig UART_platform
+TRACE::2022-04-11.16:13:13::SCWDomain::checking for install qemu data   : 
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-04-11.16:13:13::SCWMssOS::No sw design opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::mss exists loading the mss file  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Opened the sw design from mss  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Adding the swdes entry D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-04-11.16:13:13::SCWMssOS::updating the scw layer about changes
+TRACE::2022-04-11.16:13:13::SCWMssOS::Opened the sw design.  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Saving the mss changes D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-11.16:13:13::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-11.16:13:13::SCWMssOS::Commit changes completed.
+TRACE::2022-04-11.16:13:13::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-04-11.16:13:13::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:13::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:13::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:13::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:13::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:13::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:13::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:13::SCWReader::No isolation master present  
+LOG::2022-04-11.16:13:26::SCWPlatform::Started generating the artifacts platform UART_platform
+TRACE::2022-04-11.16:13:26::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-04-11.16:13:26::SCWPlatform::Started generating the artifacts for system configuration UART_platform
+LOG::2022-04-11.16:13:26::SCWSystem::Checking the domain standalone_domain
+LOG::2022-04-11.16:13:26::SCWSystem::Not a boot domain 
+LOG::2022-04-11.16:13:26::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-04-11.16:13:26::SCWDomain::Generating domain artifcats
+TRACE::2022-04-11.16:13:26::SCWMssOS::Generating standalone artifcats
+TRACE::2022-04-11.16:13:26::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-04-11.16:13:26::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:26::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:26::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:26::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:26::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:26::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:26::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:26::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:26::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:26::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:26::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:26::SCWMssOS::Completed writing the mss file at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-04-11.16:13:26::SCWMssOS::Mss edits present, copying mssfile into export location D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:26::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-04-11.16:13:26::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-04-11.16:13:26::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2022-04-11.16:13:26::SCWMssOS::doing bsp build ... 
+TRACE::2022-04-11.16:13:26::SCWMssOS::System Command Ran  D: & cd  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp & make 
+TRACE::2022-04-11.16:13:26::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::make -j 14 --no-print-directory par_libs
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-04-11.16:13:26::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-04-11.16:13:26::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-04-11.16:13:26::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-04-11.16:13:26::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-04-11.16:13:26::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-04-11.16:13:26::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-04-11.16:13:26::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-04-11.16:13:26::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-04-11.16:13:26::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-04-11.16:13:26::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-04-11.16:13:26::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-04-11.16:13:26::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-04-11.16:13:26::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-04-11.16:13:26::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-04-11.16:13:26::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2022-04-11.16:13:26::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-04-11.16:13:26::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-04-11.16:13:26::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2022-04-11.16:13:26::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-04-11.16:13:26::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-04-11.16:13:26::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-11.16:13:27::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-04-11.16:13:27::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-04-11.16:13:27::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-04-11.16:13:27::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2022-04-11.16:13:27::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaz
+TRACE::2022-04-11.16:13:27::SCWMssOS::e_disable_dcache.o microblaze_0/lib/microblaze_flush_dcache_range.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/
+TRACE::2022-04-11.16:13:27::SCWMssOS::lib/xbram_sinit.o microblaze_0/lib/xil_misc_psreset_api.o microblaze_0/lib/xil_cache.o microblaze_0/lib/xil_util.o microblaze_0
+TRACE::2022-04-11.16:13:27::SCWMssOS::/lib/inbyte.o microblaze_0/lib/xbram_g.o microblaze_0/lib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o mic
+TRACE::2022-04-11.16:13:27::SCWMssOS::roblaze_0/lib/microblaze_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_interrupts
+TRACE::2022-04-11.16:13:27::SCWMssOS::.o microblaze_0/lib/xbram_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_disable_icache
+TRACE::2022-04-11.16:13:27::SCWMssOS::.o microblaze_0/lib/xil_mem.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microblaze_
+TRACE::2022-04-11.16:13:27::SCWMssOS::0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xintc_g.o microblaze_0/lib
+TRACE::2022-04-11.16:13:27::SCWMssOS::/xuartlite_g.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/microbl
+TRACE::2022-04-11.16:13:27::SCWMssOS::aze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaze_0/lib/microblaze_sleep.o microblaze
+TRACE::2022-04-11.16:13:27::SCWMssOS::_0/lib/hw_exception_handler.o microblaze_0/lib/xuartlite_selftest.o microblaze_0/lib/xintc_intr.o microblaze_0/lib/microblaze_u
+TRACE::2022-04-11.16:13:27::SCWMssOS::pdate_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_selftest.o microblaze_0/lib/microblaze_interrupts_g
+TRACE::2022-04-11.16:13:27::SCWMssOS::.o microblaze_0/lib/microblaze_enable_exceptions.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram.o microbl
+TRACE::2022-04-11.16:13:27::SCWMssOS::aze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/microblaze_init_dcache_range.o microblaze_0/lib/microblaze_inva
+TRACE::2022-04-11.16:13:27::SCWMssOS::lidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0/lib/xintc_options.o microblaze_0/lib/micro
+TRACE::2022-04-11.16:13:27::SCWMssOS::blaze_invalidate_cache_ext_range.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xil_testmem.o micro
+TRACE::2022-04-11.16:13:27::SCWMssOS::blaze_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/
+TRACE::2022-04-11.16:13:27::SCWMssOS::lib/xil_assert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xio.o microblaze_0/lib/microblaze_enable_icac
+TRACE::2022-04-11.16:13:27::SCWMssOS::he.o microblaze_0/lib/xintc.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_init_icac
+TRACE::2022-04-11.16:13:27::SCWMssOS::he_range.o
+
+TRACE::2022-04-11.16:13:27::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-04-11.16:13:27::SCWMssOS::Copying to export directory.
+TRACE::2022-04-11.16:13:27::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-04-11.16:13:27::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-04-11.16:13:27::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-04-11.16:13:27::SCWSystem::Completed Processing the sysconfig UART_platform
+LOG::2022-04-11.16:13:27::SCWPlatform::Completed generating the artifacts for system configuration UART_platform
+TRACE::2022-04-11.16:13:27::SCWPlatform::Started preparing the platform 
+TRACE::2022-04-11.16:13:27::SCWSystem::Writing the bif file for system config UART_platform
+TRACE::2022-04-11.16:13:27::SCWSystem::dir created 
+TRACE::2022-04-11.16:13:27::SCWSystem::Writing the bif 
+TRACE::2022-04-11.16:13:27::SCWPlatform::Started writing the spfm file 
+TRACE::2022-04-11.16:13:27::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-04-11.16:13:27::SCWPlatform::Completed generating the platform
+TRACE::2022-04-11.16:13:27::SCWMssOS::Saving the mss changes D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:27::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-11.16:13:27::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-11.16:13:27::SCWMssOS::Commit changes completed.
+TRACE::2022-04-11.16:13:27::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:27::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:27::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:27::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:27::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:27::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:27::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:27::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:27::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:27::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:27::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:27::SCWWriter::formatted JSON is {
+	"platformName":	"UART_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"UART_platform",
+	"platHandOff":	"D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/TOP_UART_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_UART_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"UART_platform",
+	"systems":	[{
+			"systemName":	"UART_platform",
+			"systemDesc":	"UART_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"UART_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"ae63f4ab74b6a0048dc2b0d8fe169a58",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-04-11.16:13:27::SCWPlatform::updated the xpfm file.
+TRACE::2022-04-11.16:13:27::SCWPlatform::Trying to open the hw design at D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:27::SCWPlatform::DSA given D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:27::SCWPlatform::DSA absoulate path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:27::SCWPlatform::DSA directory D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw
+TRACE::2022-04-11.16:13:27::SCWPlatform:: Platform Path D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/hw/TOP_UART_wrapper.xsa
+TRACE::2022-04-11.16:13:27::SCWPlatform:: Unique name xilinx:genesys2::0.0
+TRACE::2022-04-11.16:13:27::SCWPlatform::Trying to set the existing hwdb with name TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:27::SCWPlatform::Opened existing hwdb TOP_UART_wrapper_1
+TRACE::2022-04-11.16:13:27::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-11.16:13:27::SCWMssOS::Checking the sw design at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-11.16:13:27::SCWMssOS::DEBUG:  swdes dump  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-11.16:13:27::SCWMssOS::Sw design exists and opened at  D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/microblaze_0/standalone_domain/bsp/system.mss

@@ -1,0 +1,8 @@
+timestamp=[2022-04-11 16:12:26], mode=WORKBENCH_START, duration=0:00:04.132, duration_ms=4132, data={}
+timestamp=[2022-04-11 16:12:26], mode=WORKBENCH_UI_INIT, duration=0:00:00.254, duration_ms=254, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-04-11 16:12:27], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.078, duration_ms=78, data={}
+timestamp=[2022-04-11 16:13:13], mode=PLATFORM_CREATION, duration=0:00:02.128, duration_ms=2128, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2022-04-11 16:13:27], mode=PLATFORM_GENERATION, duration=0:00:03.140, duration_ms=3140, data={name=UART_platform}
+timestamp=[2022-04-11 16:14:14], mode=APP_CREATION, duration=0:00:00.916, duration_ms=916, data={name=UART_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=UART_platform, application_type=application}
+timestamp=[2022-04-11 16:14:25], mode=BUILD, duration=0:00:00.671, duration_ms=671, data={name=UART_app, configuration=Debug, clean_build=false}
+timestamp=[2022-04-11 16:14:25], mode=BUILD, duration=0:00:00.089, duration_ms=89, data={name=UART_app_system, configuration=Debug, clean_build=false}

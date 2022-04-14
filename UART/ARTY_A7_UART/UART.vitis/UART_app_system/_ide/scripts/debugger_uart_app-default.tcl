@@ -1,0 +1,24 @@
+# Usage with Vitis IDE:
+# In Vitis IDE create a Single Application Debug launch configuration,
+# change the debug type to 'Attach to running target' and provide this 
+# tcl script in 'Execute Script' option.
+# Path of this script: D:\MYGITHUB\MYCODES\FPGA\IF_UART\UART\UART.vitis\UART_app_system\_ide\scripts\debugger_uart_app-default.tcl
+# 
+# 
+# Usage with xsct:
+# To debug using xsct, launch xsct and run below command
+# source D:\MYGITHUB\MYCODES\FPGA\IF_UART\UART\UART.vitis\UART_app_system\_ide\scripts\debugger_uart_app-default.tcl
+# 
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B269A2A" && level==0 && jtag_device_ctx=="jsn-Arty A7-100T-210319B269A2A-13631093-0"}
+fpga -file D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_app/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_platform/export/UART_platform/hw/TOP_UART_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.vitis/UART_app/Debug/UART_app.elf
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con

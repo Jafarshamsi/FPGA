@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="TOP_UART_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TOP_UART_xbar_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TOP_UART_lmb_bram_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_lmb_bram_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TOP_UART_mdm_1_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_mdm_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TOP_UART_rst_clk_wiz_1_100M_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_rst_clk_wiz_1_100M_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TOP_UART_clk_wiz_1_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TOP_UART_microblaze_0_axi_intc_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_microblaze_0_axi_intc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TOP_UART_axi_uartlite_0_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TOP_UART_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TOP_UART_microblaze_0_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_microblaze_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TOP_UART_ilmb_v10_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_ilmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="TOP_UART_dlmb_v10_0_synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/TOP_UART_dlmb_v10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="TOP_UART_ilmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="synth_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="TOP_UART_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="TOP_UART_xbar_0_synth_1"/>
+		<Parent Id="TOP_UART_lmb_bram_0_synth_1"/>
+		<Parent Id="TOP_UART_mdm_1_0_synth_1"/>
+		<Parent Id="TOP_UART_rst_clk_wiz_1_100M_0_synth_1"/>
+		<Parent Id="TOP_UART_clk_wiz_1_0_synth_1"/>
+		<Parent Id="TOP_UART_microblaze_0_axi_intc_0_synth_1"/>
+		<Parent Id="TOP_UART_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="TOP_UART_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="TOP_UART_microblaze_0_0_synth_1"/>
+		<Parent Id="TOP_UART_ilmb_v10_0_synth_1"/>
+		<Parent Id="TOP_UART_dlmb_v10_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/MYGITHUB/MYCODES/FPGA/IF_UART/UART/UART.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="TOP_UART_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="TOP_UART_xbar_0_synth_1"/>
+		<Parent Id="TOP_UART_lmb_bram_0_synth_1"/>
+		<Parent Id="TOP_UART_mdm_1_0_synth_1"/>
+		<Parent Id="TOP_UART_rst_clk_wiz_1_100M_0_synth_1"/>
+		<Parent Id="TOP_UART_clk_wiz_1_0_synth_1"/>
+		<Parent Id="TOP_UART_microblaze_0_axi_intc_0_synth_1"/>
+		<Parent Id="TOP_UART_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="TOP_UART_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="TOP_UART_microblaze_0_0_synth_1"/>
+		<Parent Id="TOP_UART_ilmb_v10_0_synth_1"/>
+		<Parent Id="TOP_UART_dlmb_v10_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
