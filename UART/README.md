@@ -5,4 +5,4 @@
 
 ## 2. Create your project for Genesys2: [Click Here to reach the Youtube Channel](https://www.youtube.com/watch?v=fS4h4jcLzOA)
 
--- For Genesys2 you may face some Errors that are explained the Youtube video
+- For Genesys2 you may face some Errors that are explained the Youtube video
