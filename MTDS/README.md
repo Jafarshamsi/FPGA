@@ -1,4 +1,4 @@
-# Quick guide: MICROBLAZE with UART interface on ARTY-A7-100T
+# MICROBLAZE & Multi Touch Display Shield (MTDS) on ARTY-A7-100T and Genesys2
 ***
-Here is a fast walkthrough to create your project for ARTY-A7-100T: [Youtube Channel](https://www.youtube.com/watch?v=fS4h4jcLzOA)
-
+## Here is a fast walkthourgh to create your project for ARTY-A7-100T: [Youtube Channel](https://youtu.be/X0Jy_Gotdfw)
+***
