@@ -1,0 +1,1170 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Apr 15 14:12:11 2022
+# Process ID: 5116
+# Current directory: E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1
+# Command line: vivado.exe -log TOP_MTDS_PmodMTDS_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP_MTDS_PmodMTDS_0_0.tcl
+# Log file: E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1/TOP_MTDS_PmodMTDS_0_0.vds
+# Journal file: E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1\vivado.jou
+# Running On: BlueRoseNew, OS: Windows, CPU Frequency: 1690 MHz, CPU Physical cores: 4, Host memory: 16893 MB
+#-----------------------------------------------------------
+source TOP_MTDS_PmodMTDS_0_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 1253.688 ; gain = 6.785
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/NEW_IPs'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.2/data/ip'.
+Command: synth_design -top TOP_MTDS_PmodMTDS_0_0 -part xc7a100tcsg324-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 11736
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1253.688 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TOP_MTDS_PmodMTDS_0_0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/synth/TOP_MTDS_PmodMTDS_0_0.v:56]
+INFO: [Synth 8-6157] synthesizing module 'PmodMTDS' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:12]
+INFO: [Synth 8-6157] synthesizing module 'PmodMTDS_pmod_bridge_0_0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/synth/PmodMTDS_pmod_bridge_0_0.v:56]
+INFO: [Synth 8-6157] synthesizing module 'pmod_concat' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/src/pmod_concat.v:12]
+WARNING: [Synth 8-3848] Net in_top_bus_I in module/entity pmod_concat does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/src/pmod_concat.v:84]
+WARNING: [Synth 8-3848] Net in_top_uart_gpio_bus_I in module/entity pmod_concat does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/src/pmod_concat.v:87]
+WARNING: [Synth 8-3848] Net in_top_i2c_gpio_bus_I in module/entity pmod_concat does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/src/pmod_concat.v:90]
+WARNING: [Synth 8-3848] Net in_bottom_uart_gpio_bus_I in module/entity pmod_concat does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/src/pmod_concat.v:97]
+WARNING: [Synth 8-3848] Net in_bottom_i2c_gpio_bus_I in module/entity pmod_concat does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/src/pmod_concat.v:100]
+WARNING: [Synth 8-3848] Net in4_I in module/entity pmod_concat does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/src/pmod_concat.v:108]
+WARNING: [Synth 8-3848] Net in5_I in module/entity pmod_concat does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/src/pmod_concat.v:109]
+WARNING: [Synth 8-3848] Net in6_I in module/entity pmod_concat does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/src/pmod_concat.v:110]
+WARNING: [Synth 8-3848] Net in7_I in module/entity pmod_concat does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/src/pmod_concat.v:111]
+INFO: [Synth 8-6155] done synthesizing module 'pmod_concat' (1#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/src/pmod_concat.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'PmodMTDS_pmod_bridge_0_0' (2#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/synth/PmodMTDS_pmod_bridge_0_0.v:56]
+INFO: [Synth 8-638] synthesizing module 'PmodMTDS_axi_gpio_0_0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/synth/PmodMTDS_axi_gpio_0_0.vhd:90]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_GPIO_WIDTH bound to: 2 - type: integer 
+	Parameter C_GPIO2_WIDTH bound to: 3 - type: integer 
+	Parameter C_ALL_INPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_INPUTS_2 bound to: 0 - type: integer 
+	Parameter C_ALL_OUTPUTS bound to: 0 - type: integer 
+	Parameter C_ALL_OUTPUTS_2 bound to: 0 - type: integer 
+	Parameter C_INTERRUPT_PRESENT bound to: 1 - type: integer 
+	Parameter C_DOUT_DEFAULT bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT bound to: 32'b11111111111111111111111111111111 
+	Parameter C_IS_DUAL bound to: 1 - type: integer 
+	Parameter C_DOUT_DEFAULT_2 bound to: 32'b00000000000000000000000000000000 
+	Parameter C_TRI_DEFAULT_2 bound to: 32'b11111111111111111111111111111111 
+INFO: [Synth 8-3491] module 'axi_gpio' declared at 'e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd:1265' bound to instance 'U0' of component 'axi_gpio' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/synth/PmodMTDS_axi_gpio_0_0.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'axi_gpio' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd:1351]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized0' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized1' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized1' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized2' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized2' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized3' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized3' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized4' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized4' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized5' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized5' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized6' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized6' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized7' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized7' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized8' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized8' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized9' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized9' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized10' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized10' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized11' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized11' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized12' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized12' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized13' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized13' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized14' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized14' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized15' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized15' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized16' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized16' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized17' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized17' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized18' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized18' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized19' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized19' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized20' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized20' (3#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder' (4#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment' (5#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif' (6#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'interrupt_control' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'interrupt_control' (7#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
+INFO: [Synth 8-638] synthesizing module 'GPIO_Core' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+INFO: [Synth 8-226] default block is never used [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd:835]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync' (8#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized0' (8#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G0.READ_REG_GEN[0].GPIO_DBus_i_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd:619]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G0.READ_REG_GEN[1].GPIO_DBus_i_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd:619]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G2.READ_REG2_GEN[0].GPIO2_DBus_i_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd:750]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G2.READ_REG2_GEN[1].GPIO2_DBus_i_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd:750]
+WARNING: [Synth 8-6014] Unused sequential element Dual.ALLOUT0_ND_G2.READ_REG2_GEN[2].GPIO2_DBus_i_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd:750]
+INFO: [Synth 8-256] done synthesizing module 'GPIO_Core' (9#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd:178]
+INFO: [Synth 8-256] done synthesizing module 'axi_gpio' (10#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/axi_gpio_v2_0_vh_rfs.vhd:1351]
+INFO: [Synth 8-256] done synthesizing module 'PmodMTDS_axi_gpio_0_0' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/synth/PmodMTDS_axi_gpio_0_0.vhd:90]
+INFO: [Synth 8-638] synthesizing module 'PmodMTDS_axi_quad_spi_0_0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/synth/PmodMTDS_axi_quad_spi_0_0.vhd:97]
+	Parameter Async_Clk bound to: 1 - type: integer 
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_SELECT_XPM bound to: 0 - type: integer 
+	Parameter C_SUB_FAMILY bound to: zynq - type: string 
+	Parameter C_INSTANCE bound to: axi_quad_spi_inst - type: string 
+	Parameter C_SPI_MEM_ADDR_BITS bound to: 24 - type: integer 
+	Parameter C_TYPE_OF_AXI4_INTERFACE bound to: 0 - type: integer 
+	Parameter C_XIP_MODE bound to: 0 - type: integer 
+	Parameter C_XIP_PERF_MODE bound to: 1 - type: integer 
+	Parameter C_BYTE_LEVEL_INTERRUPT_EN bound to: 0 - type: integer 
+	Parameter C_UC_FAMILY bound to: 0 - type: integer 
+	Parameter C_FIFO_DEPTH bound to: 0 - type: integer 
+	Parameter C_SCK_RATIO bound to: 16 - type: integer 
+	Parameter C_DUAL_QUAD_MODE bound to: 0 - type: integer 
+	Parameter C_NUM_SS_BITS bound to: 1 - type: integer 
+	Parameter C_NUM_TRANSFER_BITS bound to: 8 - type: integer 
+	Parameter C_NEW_SEQ_EN bound to: 1 - type: integer 
+	Parameter C_SPI_MODE bound to: 0 - type: integer 
+	Parameter C_USE_STARTUP bound to: 0 - type: integer 
+	Parameter C_USE_STARTUP_EXT bound to: 0 - type: integer 
+	Parameter C_SPI_MEMORY bound to: 1 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI4_ADDR_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXI4_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI4_ID_WIDTH bound to: 1 - type: integer 
+	Parameter C_SHARED_STARTUP bound to: 0 - type: integer 
+	Parameter C_S_AXI4_BASEADDR bound to: 32'b11111111111111111111111111111111 
+	Parameter C_S_AXI4_HIGHADDR bound to: 32'b00000000000000000000000000000000 
+	Parameter C_LSB_STUP bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'axi_quad_spi' declared at 'e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36498' bound to instance 'U0' of component 'axi_quad_spi' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/synth/PmodMTDS_axi_quad_spi_0_0.vhd:290]
+INFO: [Synth 8-638] synthesizing module 'axi_quad_spi' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36738]
+INFO: [Synth 8-638] synthesizing module 'axi_quad_spi_top' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34994]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'IO0_I_REG' to cell 'FD' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:35463]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'IO1_I_REG' to cell 'FD' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:35474]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'IO2_I_REG' to cell 'FD' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:35485]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'IO3_I_REG' to cell 'FD' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:35497]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif__parameterized0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment__parameterized0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder__parameterized0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized21' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized21' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized22' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized22' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized23' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized23' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized24' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized24' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized25' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized25' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized26' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized26' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized27' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized27' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized28' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized28' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized29' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized29' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized30' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized30' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized31' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif_v3_0_4_pselect_f__parameterized31' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1534]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder__parameterized0' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment__parameterized0' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif__parameterized0' (11#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'qspi_core_interface' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19206]
+INFO: [Synth 8-638] synthesizing module 'reset_sync_module' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:2426]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RESET_SYNC_AX2S_1' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:2455]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'RESET_SYNC_AX2S_2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:2463]
+INFO: [Synth 8-256] done synthesizing module 'reset_sync_module' (12#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:2426]
+INFO: [Synth 8-638] synthesizing module 'qspi_receive_transmit_reg' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:3330]
+INFO: [Synth 8-256] done synthesizing module 'qspi_receive_transmit_reg' (13#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:3330]
+INFO: [Synth 8-638] synthesizing module 'cross_clk_sync_fifo_0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:16935]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized1' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized1' (13#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized2' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:514]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:545]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:554]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:564]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:574]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:584]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized2' (13#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized3' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_IN_cdc_to' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:736]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:772]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:788]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:804]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:821]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:837]
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized3' (13#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'DRR_OVERRUN_SYNC_SPI_cdc_to_AXI_1' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:18178]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'DRR_OVERRUN_SYNC_SPI_cdc_to_AXI_2' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:18186]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'DRR_OVERRUN_SYNC_SPI_cdc_to_AXI_3' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:18194]
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'DRR_OVERRUN_SYNC_SPI_cdc_to_AXI_4' to cell 'FDR' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:18202]
+INFO: [Common 17-14] Message 'Synth 8-113' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized4' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized4' (13#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized5' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized5' (13#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'cross_clk_sync_fifo_0' (14#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:16935]
+INFO: [Synth 8-638] synthesizing module 'qspi_mode_0_module' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:8775]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized6' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized6' (14#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b1 
+	Parameter INIT bound to: 1'b1 
+	Parameter INIT bound to: 1'b1 
+	Parameter INIT bound to: 1'b1 
+	Parameter INIT bound to: 1'b1 
+	Parameter INIT bound to: 1'b1 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+WARNING: [Synth 8-6014] Unused sequential element LOCAL_TX_EMPTY_RX_FULL_FIFO_0_GEN.stop_clock_reg_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:9080]
+WARNING: [Synth 8-6014] Unused sequential element transfer_start_d2_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:9713]
+WARNING: [Synth 8-6014] Unused sequential element transfer_start_d3_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:9714]
+WARNING: [Synth 8-6014] Unused sequential element SPIXfer_done_int_pulse_d3_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:9771]
+WARNING: [Synth 8-6014] Unused sequential element SS_Asserted_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:10949]
+WARNING: [Synth 8-6014] Unused sequential element SS_Asserted_1dly_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:10950]
+WARNING: [Synth 8-6014] Unused sequential element MODF_strobe_int_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:10979]
+INFO: [Synth 8-256] done synthesizing module 'qspi_mode_0_module' (15#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:8775]
+INFO: [Synth 8-638] synthesizing module 'qspi_cntrl_reg' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:13820]
+INFO: [Synth 8-256] done synthesizing module 'qspi_cntrl_reg' (16#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:13820]
+INFO: [Synth 8-638] synthesizing module 'qspi_status_slave_sel_reg' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:2658]
+INFO: [Synth 8-256] done synthesizing module 'qspi_status_slave_sel_reg' (17#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:2658]
+INFO: [Synth 8-638] synthesizing module 'soft_reset' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:874]
+INFO: [Synth 8-256] done synthesizing module 'soft_reset' (18#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:874]
+INFO: [Synth 8-638] synthesizing module 'interrupt_control__parameterized0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
+INFO: [Synth 8-256] done synthesizing module 'interrupt_control__parameterized0' (18#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/hdl/interrupt_control_v3_1_vh_rfs.vhd:259]
+WARNING: [Synth 8-6014] Unused sequential element LEGACY_MD_WR_RD_ACK_GEN.Bus2IP_WrCE_d1_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19837]
+WARNING: [Synth 8-6014] Unused sequential element LEGACY_MD_WR_RD_ACK_GEN.Bus2IP_WrCE_d2_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19838]
+WARNING: [Synth 8-6014] Unused sequential element LEGACY_MD_WR_RD_ACK_GEN.Bus2IP_WrCE_d3_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19839]
+WARNING: [Synth 8-6014] Unused sequential element LEGACY_MD_WR_RD_ACK_GEN.ip2Bus_RdAck_core_reg_d1_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19938]
+WARNING: [Synth 8-6014] Unused sequential element LEGACY_MD_WR_RD_ACK_GEN.ip2Bus_RdAck_core_reg_1_reg was removed.  [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19940]
+WARNING: [Synth 8-3848] Net cfgclk in module/entity qspi_core_interface does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19183]
+WARNING: [Synth 8-3848] Net cfgmclk in module/entity qspi_core_interface does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19184]
+WARNING: [Synth 8-3848] Net eos in module/entity qspi_core_interface does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19185]
+WARNING: [Synth 8-3848] Net preq in module/entity qspi_core_interface does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19186]
+WARNING: [Synth 8-3848] Net di in module/entity qspi_core_interface does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19187]
+WARNING: [Synth 8-3848] Net reset_RcFIFO_ptr_to_spi_clk in module/entity qspi_core_interface does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19352]
+INFO: [Synth 8-256] done synthesizing module 'qspi_core_interface' (19#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:19206]
+WARNING: [Synth 8-3848] Net s_axi4_awready in module/entity axi_quad_spi_top does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34885]
+WARNING: [Synth 8-3848] Net s_axi4_wready in module/entity axi_quad_spi_top does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34893]
+WARNING: [Synth 8-3848] Net s_axi4_bid in module/entity axi_quad_spi_top does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34897]
+WARNING: [Synth 8-3848] Net s_axi4_bresp in module/entity axi_quad_spi_top does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34898]
+WARNING: [Synth 8-3848] Net s_axi4_bvalid in module/entity axi_quad_spi_top does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34899]
+WARNING: [Synth 8-3848] Net s_axi4_arready in module/entity axi_quad_spi_top does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34913]
+WARNING: [Synth 8-3848] Net s_axi4_rid in module/entity axi_quad_spi_top does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34917]
+WARNING: [Synth 8-3848] Net s_axi4_rdata in module/entity axi_quad_spi_top does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34918]
+WARNING: [Synth 8-3848] Net s_axi4_rresp in module/entity axi_quad_spi_top does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34919]
+WARNING: [Synth 8-3848] Net s_axi4_rlast in module/entity axi_quad_spi_top does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34920]
+WARNING: [Synth 8-3848] Net s_axi4_rvalid in module/entity axi_quad_spi_top does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34921]
+INFO: [Synth 8-256] done synthesizing module 'axi_quad_spi_top' (20#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:34994]
+WARNING: [Synth 8-3848] Net io0_1_o in module/entity axi_quad_spi does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36681]
+WARNING: [Synth 8-3848] Net io0_1_t in module/entity axi_quad_spi does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36682]
+WARNING: [Synth 8-3848] Net io1_1_o in module/entity axi_quad_spi does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36685]
+WARNING: [Synth 8-3848] Net io1_1_t in module/entity axi_quad_spi does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36686]
+WARNING: [Synth 8-3848] Net io2_1_o in module/entity axi_quad_spi does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36691]
+WARNING: [Synth 8-3848] Net io2_1_t in module/entity axi_quad_spi does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36692]
+WARNING: [Synth 8-3848] Net io3_1_o in module/entity axi_quad_spi does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36695]
+WARNING: [Synth 8-3848] Net io3_1_t in module/entity axi_quad_spi does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36696]
+WARNING: [Synth 8-3848] Net ss_1_o in module/entity axi_quad_spi does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36711]
+WARNING: [Synth 8-3848] Net ss_1_t in module/entity axi_quad_spi does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36712]
+INFO: [Synth 8-256] done synthesizing module 'axi_quad_spi' (21#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/hdl/axi_quad_spi_v3_2_rfs.vhd:36738]
+INFO: [Synth 8-256] done synthesizing module 'PmodMTDS_axi_quad_spi_0_0' (22#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/synth/PmodMTDS_axi_quad_spi_0_0.vhd:97]
+WARNING: [Synth 8-689] width (32) of port connection 'ss_o' does not match port width (1) of module 'PmodMTDS_axi_quad_spi_0_0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:410]
+WARNING: [Synth 8-2900] ignoring illegal expression in output port connection [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:410]
+WARNING: [Synth 8-689] width (32) of port connection 'ss_t' does not match port width (1) of module 'PmodMTDS_axi_quad_spi_0_0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:411]
+WARNING: [Synth 8-2900] ignoring illegal expression in output port connection [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:411]
+INFO: [Synth 8-638] synthesizing module 'axi_timer_0' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/synth/axi_timer_0.vhd:90]
+	Parameter C_FAMILY bound to: artix7 - type: string 
+	Parameter C_COUNT_WIDTH bound to: 32 - type: integer 
+	Parameter C_ONE_TIMER_ONLY bound to: 0 - type: integer 
+	Parameter C_TRIG0_ASSERT bound to: 1'b1 
+	Parameter C_TRIG1_ASSERT bound to: 1'b1 
+	Parameter C_GEN0_ASSERT bound to: 1'b1 
+	Parameter C_GEN1_ASSERT bound to: 1'b1 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'axi_timer' declared at 'e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:2088' bound to instance 'U0' of component 'axi_timer' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/synth/axi_timer_0.vhd:168]
+INFO: [Synth 8-638] synthesizing module 'axi_timer' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:2143]
+INFO: [Synth 8-638] synthesizing module 'tc_core' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:1704]
+INFO: [Synth 8-638] synthesizing module 'mux_onehot_f' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:365]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-6157] synthesizing module 'MUXCY' [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463]
+INFO: [Synth 8-6155] done synthesizing module 'MUXCY' (23#1) [C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-3491] module 'MUXCY' declared at 'C:/Xilinx/Vivado/2021.2/scripts/rt/data/unisim_comp.v:66463' bound to instance 'MUXCY_I' of component 'MUXCY' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:462]
+INFO: [Synth 8-256] done synthesizing module 'mux_onehot_f' (24#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:365]
+INFO: [Synth 8-638] synthesizing module 'count_module' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:1438]
+INFO: [Synth 8-638] synthesizing module 'axi_timer_v2_0_27_counter_f' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'axi_timer_v2_0_27_counter_f' (25#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:148]
+INFO: [Synth 8-256] done synthesizing module 'count_module' (26#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:1438]
+INFO: [Synth 8-638] synthesizing module 'timer_control' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:835]
+INFO: [Synth 8-638] synthesizing module 'cdc_sync__parameterized7' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+	Parameter INIT bound to: 1'b0 
+INFO: [Synth 8-256] done synthesizing module 'cdc_sync__parameterized7' (26#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/lib_cdc_v1_0_rfs.vhd:106]
+INFO: [Synth 8-256] done synthesizing module 'timer_control' (27#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:835]
+INFO: [Synth 8-256] done synthesizing module 'tc_core' (28#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:1704]
+INFO: [Synth 8-638] synthesizing module 'axi_lite_ipif__parameterized1' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-638] synthesizing module 'slave_attachment__parameterized1' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-638] synthesizing module 'address_decoder__parameterized1' [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-256] done synthesizing module 'address_decoder__parameterized1' (28#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:1775]
+INFO: [Synth 8-226] default block is never used [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2550]
+INFO: [Synth 8-256] done synthesizing module 'slave_attachment__parameterized1' (28#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2341]
+INFO: [Synth 8-256] done synthesizing module 'axi_lite_ipif__parameterized1' (28#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_lite_ipif_v3_0_vh_rfs.vhd:2948]
+INFO: [Synth 8-256] done synthesizing module 'axi_timer' (29#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/hdl/axi_timer_v2_0_vh_rfs.vhd:2143]
+INFO: [Synth 8-256] done synthesizing module 'axi_timer_0' (30#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/synth/axi_timer_0.vhd:90]
+WARNING: [Synth 8-3848] Net SPI_SS_O in module/entity PmodMTDS does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:181]
+WARNING: [Synth 8-3848] Net SPI_SS_T in module/entity PmodMTDS does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:182]
+WARNING: [Synth 8-3848] Net SPI_IO0_O in module/entity PmodMTDS does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:184]
+WARNING: [Synth 8-3848] Net SPI_IO0_T in module/entity PmodMTDS does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:185]
+WARNING: [Synth 8-3848] Net SPI_IO1_O in module/entity PmodMTDS does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:187]
+WARNING: [Synth 8-3848] Net SPI_IO1_T in module/entity PmodMTDS does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:188]
+WARNING: [Synth 8-3848] Net SPI_CLK_O in module/entity PmodMTDS does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:190]
+WARNING: [Synth 8-3848] Net SPI_CLK_T in module/entity PmodMTDS does not have driver. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:191]
+INFO: [Synth 8-6155] done synthesizing module 'PmodMTDS' (31#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ipshared/c45d/src/PmodMTDS.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'TOP_MTDS_PmodMTDS_0_0' (32#1) [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/synth/TOP_MTDS_PmodMTDS_0_0.v:56]
+WARNING: [Synth 8-7129] Port Address_In_Erly[3] in module address_decoder__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Address_In_Erly[4] in module address_decoder__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus_RNW in module address_decoder__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[3] in module slave_attachment__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[2] in module slave_attachment__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[1] in module slave_attachment__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_WSTRB[0] in module slave_attachment__parameterized1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_aclk in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_resetn in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[31] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[30] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[29] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[28] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[27] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[26] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[25] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[24] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[23] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[22] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[21] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[20] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[19] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[18] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[17] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[16] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[15] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[14] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[13] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[12] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[11] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[10] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[9] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[8] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[7] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[6] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[5] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[4] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[3] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[2] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[1] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port prmry_vect_in[0] in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port scndry_resetn in module cdc_sync__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[0] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[1] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[2] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[3] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[4] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[5] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[6] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[7] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[8] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[9] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[10] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[11] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[12] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[13] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[14] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[15] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[16] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[17] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[18] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_data[19] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BE[0] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port BE[1] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_rdce[0] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_rdce[2] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_rdce[3] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_rdce[4] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_rdce[6] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_rdce[7] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_wrce[2] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_wrce[3] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_wrce[6] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_wrce[7] in module timer_control is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_addr[0] in module tc_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_addr[1] in module tc_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_addr[2] in module tc_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_addr[3] in module tc_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Bus2ip_addr[4] in module tc_core is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[1] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[2] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[3] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[4] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[5] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[6] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[7] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[8] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[9] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[10] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[11] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[12] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[13] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[14] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[15] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[16] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_data[17] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_be[1] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_be[2] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bus2ip_be[3] in module interrupt_control__parameterized0 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port interrupt_rdce[0] in module interrupt_control__parameterized0 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 1317.586 ; gain = 63.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1317.586 ; gain = 63.898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 1317.586 ; gain = 63.898
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.139 . Memory (MB): peak = 1317.586 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 412 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_ooc.xdc] for cell 'inst'
+WARNING: [Vivado 12-584] No ports matched 'ext_spi_clk'. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_ooc.xdc:9]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports ext_spi_clk]'. [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_ooc.xdc:9]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_ooc.xdc] for cell 'inst'
+Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/axi_timer_0.xdc] for cell 'inst/axi_timer_0/U0'
+Finished Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/axi_timer_0/axi_timer_0.xdc] for cell 'inst/axi_timer_0/U0'
+Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/PmodMTDS_axi_gpio_0_0_board.xdc] for cell 'inst/axi_gpio_0/U0'
+Finished Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/PmodMTDS_axi_gpio_0_0_board.xdc] for cell 'inst/axi_gpio_0/U0'
+Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/PmodMTDS_axi_gpio_0_0.xdc] for cell 'inst/axi_gpio_0/U0'
+Finished Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_gpio_0_0/PmodMTDS_axi_gpio_0_0.xdc] for cell 'inst/axi_gpio_0/U0'
+Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/PmodMTDS_axi_quad_spi_0_0_board.xdc] for cell 'inst/axi_quad_spi_0/U0'
+Finished Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/PmodMTDS_axi_quad_spi_0_0_board.xdc] for cell 'inst/axi_quad_spi_0/U0'
+Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/PmodMTDS_axi_quad_spi_0_0.xdc] for cell 'inst/axi_quad_spi_0/U0'
+Finished Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/PmodMTDS_axi_quad_spi_0_0.xdc] for cell 'inst/axi_quad_spi_0/U0'
+Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/PmodMTDS_pmod_bridge_0_0_board.xdc] for cell 'inst/genblk1.pmod_bridge_0/inst'
+Finished Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_pmod_bridge_0_0/PmodMTDS_pmod_bridge_0_0_board.xdc] for cell 'inst/genblk1.pmod_bridge_0/inst'
+Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/TOP_MTDS_PmodMTDS_0_0_board.xdc] for cell 'inst'
+Finished Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/TOP_MTDS_PmodMTDS_0_0_board.xdc] for cell 'inst'
+Parsing XDC File [E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TOP_MTDS_PmodMTDS_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TOP_MTDS_PmodMTDS_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/PmodMTDS_axi_quad_spi_0_0_clocks.xdc] for cell 'inst/axi_quad_spi_0/U0'
+Finished Parsing XDC File [e:/Projects/MTDS/MTDS.gen/sources_1/bd/TOP_MTDS/ip/TOP_MTDS_PmodMTDS_0_0/src/PmodMTDS_axi_quad_spi_0_0/PmodMTDS_axi_quad_spi_0_0_clocks.xdc] for cell 'inst/axi_quad_spi_0/U0'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1377.574 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 348 instances were transformed.
+  FD => FDRE: 11 instances
+  FDR => FDRE: 294 instances
+  FDRS => FDRS (FDRE, LUT2, VCC): 1 instance 
+  FDRSE => FDRSE (FDRE, LUT4, VCC): 42 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 1379.387 ; gain = 1.812
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\genblk1.pmod_bridge_0 /inst. (constraint file  E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1/dont_touch.xdc, line 20).
+Applied set_property KEEP_HIERARCHY = SOFT for inst. (constraint file  E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1/dont_touch.xdc, line 26).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/axi_quad_spi_0/U0. (constraint file  E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1/dont_touch.xdc, line 33).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/axi_gpio_0/U0. (constraint file  E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1/dont_touch.xdc, line 44).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/axi_timer_0/U0. (constraint file  E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1/dont_touch.xdc, line 52).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/axi_timer_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/axi_gpio_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/axi_quad_spi_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for inst/\genblk1.pmod_bridge_0 . (constraint file  auto generated constraint).
+Applied set_property KEEP = true for inst/axi_gpio_0/U0/gpio_core_1/GPIO2_IO_T[1]. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for inst/axi_quad_spi_0/U0/\NO_DUAL_QUAD_MODE.QSPI_NORMAL /\QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I /\LOGIC_FOR_MD_0_GEN.SPI_MODULE_I /MOSI_T. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for inst/axi_quad_spi_0/U0/\NO_DUAL_QUAD_MODE.QSPI_NORMAL /\QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I /\LOGIC_FOR_MD_0_GEN.SPI_MODULE_I /MISO_T. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for inst/axi_quad_spi_0/U0/\NO_DUAL_QUAD_MODE.QSPI_NORMAL /\QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I /\LOGIC_FOR_MD_0_GEN.SPI_MODULE_I /SCK_T. (constraint file  auto generated constraint).
+Applied set_property KEEP = true for inst/axi_gpio_0/U0/gpio_core_1/GPIO_IO_T[1]. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:47 ; elapsed = 00:00:50 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment__parameterized0'
+INFO: [Synth 8-802] inferred FSM for state register 'LOCAL_TX_EMPTY_RX_FULL_FIFO_0_GEN.spi_cntrl_ps_reg' in module 'qspi_mode_0_module'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'slave_attachment__parameterized1'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                  iSTATE |                             0010 |                               01
+                 iSTATE0 |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                  iSTATE |                             0010 |                               01
+                 iSTATE0 |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment__parameterized0'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                               00 |                               00
+           transfer_okay |                               01 |                               01
+      temp_transfer_okay |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'LOCAL_TX_EMPTY_RX_FULL_FIFO_0_GEN.spi_cntrl_ps_reg' using encoding 'sequential' in module 'qspi_mode_0_module'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE2 |                             0001 |                               00
+                  iSTATE |                             0010 |                               01
+                 iSTATE0 |                             0100 |                               10
+                 iSTATE1 |                             1000 |                               11
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'slave_attachment__parameterized1'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:51 ; elapsed = 00:00:54 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   33 Bit       Adders := 2     
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      3 Bit         XORs := 1     
+	   2 Input      2 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 28    
++---Registers : 
+	               33 Bit    Registers := 2     
+	               32 Bit    Registers := 5     
+	               14 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 5     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 5     
+	                2 Bit    Registers := 15    
+	                1 Bit    Registers := 237   
++---Muxes : 
+	   3 Input   33 Bit        Muxes := 2     
+	   2 Input   33 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 9     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 1     
+	   2 Input    9 Bit        Muxes := 4     
+	   3 Input    9 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 9     
+	   2 Input    7 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 3     
+	   2 Input    4 Bit        Muxes := 16    
+	   2 Input    3 Bit        Muxes := 3     
+	   2 Input    2 Bit        Muxes := 16    
+	   3 Input    2 Bit        Muxes := 4     
+	   4 Input    2 Bit        Muxes := 5     
+	   2 Input    1 Bit        Muxes := 147   
+	   4 Input    1 Bit        Muxes := 9     
+	   3 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Dual.INPUT_DOUBLE_REGS4/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_gpio.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Dual.INPUT_DOUBLE_REGS4/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[1].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_gpio.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Dual.INPUT_DOUBLE_REGS4/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_gpio.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Dual.INPUT_DOUBLE_REGS4/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[1].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_gpio.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Dual.INPUT_DOUBLE_REGS5/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_gpio.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Dual.INPUT_DOUBLE_REGS5/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[1].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_gpio.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Dual.INPUT_DOUBLE_REGS5/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[2].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_gpio.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Dual.INPUT_DOUBLE_REGS5/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_gpio.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Dual.INPUT_DOUBLE_REGS5/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[1].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_gpio.
+INFO: [Synth 8-3332] Sequential element (gpio_core_1/Dual.INPUT_DOUBLE_REGS5/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[2].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_gpio.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.TX_FIFO_EMPTY_FOR_SPISR_SYNC_SPI_2_AXI_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.TX_FIFO_EMPTY_FOR_SPISR_SYNC_SPI_2_AXI_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.TX_FIFO_EMPTY_HANDSHAKE_REQ_AXI_2_SPI_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.TX_FIFO_EMPTY_HANDSHAKE_REQ_AXI_2_SPI_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.TX_FIFO_EMPTY_HANDSHAKE_REQ_AXI_2_SPI_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.TX_FIFO_EMPTY_HANDSHAKE_GNT_SPI_2_AXI_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.TX_FIFO_EMPTY_HANDSHAKE_GNT_SPI_2_AXI_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.TX_FIFO_EMPTY_HANDSHAKE_GNT_SPI_2_AXI_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPISEL_D1_REG_SYNC_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPISEL_D1_REG_SYNC_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPISEL_PULSE_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPISEL_PULSE_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPISEL_PULSE_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPISEL_PULSE_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPISEL_PULSE_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPISEL_PULSE_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SYNC_SPIXFER_DONE_SYNC_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SYNC_SPIXFER_DONE_SYNC_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SLAVE_MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SLAVE_MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SLAVE_MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SLAVE_MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SLAVE_MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SLAVE_MODF_STROBE_SYNC_SPI_cdc_to_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[1].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[2].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[3].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[4].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[5].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[6].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d5[7].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[0].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[1].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[2].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[3].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[4].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[5].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[6].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.RECEIVE_DATA_SYNC_SPI_cdc_to_AXI_P_CDC/GENERATE_LEVEL_P_S_CDC.MULTI_BIT.FOR_CROSS_PLEVEL_IN2SCNDRY_bus_d6[7].CROSS2_PLEVEL_IN2SCNDRY_s_level_out_bus_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.DTR_UNDERRUN_SYNC_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.DTR_UNDERRUN_SYNC_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.DTR_UNDERRUN_SYNC_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.DTR_UNDERRUN_SYNC_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.DTR_UNDERRUN_SYNC_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.DTR_UNDERRUN_SYNC_SPI_2_AXI_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_0_LOOP_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_0_LOOP_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_0_LOOP_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_1_SPE_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_1_SPE_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_1_SPE_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_2_MST_N_SLV_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_2_MST_N_SLV_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_2_MST_N_SLV_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_3_CPOL_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_3_CPOL_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_3_CPOL_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_4_CPHA_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_4_CPHA_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_4_CPHA_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_5_TXFIFO_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_5_TXFIFO_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_5_TXFIFO_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_5_TXFIFO_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_5_TXFIFO_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_5_TXFIFO_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_6_RXFIFO_RST_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_6_RXFIFO_RST_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_6_RXFIFO_RST_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_6_RXFIFO_RST_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_6_RXFIFO_RST_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_6_RXFIFO_RST_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_7_SS_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_IN_cdc_to) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_7_SS_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d2) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_7_SS_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d3) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_7_SS_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_7_SS_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_7_SS_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_8_TR_INHIBIT_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_8_TR_INHIBIT_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_8_TR_INHIBIT_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d6) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_9_LSB_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d4) is unused and will be removed from module axi_quad_spi.
+INFO: [Synth 8-3332] Sequential element (NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/NO_FIFO_EXISTS.CROSS_CLK_FIFO_0_INST/LOGIC_GENERATION_CDC.SPICR_9_LSB_AX2S_1_CDC/GENERATE_LEVEL_P_S_CDC.SINGLE_BIT.CROSS_PLEVEL_IN2SCNDRY_s_level_out_d5) is unused and will be removed from module axi_quad_spi.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:00 ; elapsed = 00:01:04 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:13 ; elapsed = 00:01:17 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:15 ; elapsed = 00:01:19 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:16 ; elapsed = 00:01:20 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:25 ; elapsed = 00:01:30 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:25 ; elapsed = 00:01:30 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    16|
+|2     |LUT1   |    12|
+|3     |LUT2   |   130|
+|4     |LUT3   |   155|
+|5     |LUT4   |   120|
+|6     |LUT5   |   135|
+|7     |LUT6   |   140|
+|8     |MUXCY  |    64|
+|9     |FD     |     5|
+|10    |FDR    |   144|
+|11    |FDRE   |   552|
+|12    |FDSE   |    19|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1379.387 ; gain = 125.699
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 361 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:50 ; elapsed = 00:01:25 . Memory (MB): peak = 1379.387 ; gain = 63.898
+Synthesis Optimization Complete : Time (s): cpu = 00:01:26 ; elapsed = 00:01:30 . Memory (MB): peak = 1379.387 ; gain = 125.699
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 1379.387 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 229 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+WARNING: [Constraints 18-5572] Instance inst/axi_quad_spi_0/U0/NO_DUAL_QUAD_MODE.QSPI_NORMAL/QSPI_LEGACY_MD_GEN.QSPI_CORE_INTERFACE_I/LOGIC_FOR_MD_0_GEN.SPI_MODULE_I/RATIO_NOT_EQUAL_4_GENERATE.SCK_O_NQ_4_NO_STARTUP_USED.SCK_O_NE_4_FDRE_INST has IOB constraint set, However, the instance does not seem to have valid I/O connection to be placed into I/O. The constraint on the instance will be ignored.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1379.387 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 181 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 32 instances
+  FD => FDRE: 5 instances
+  FDR => FDRE: 144 instances
+
+Synth Design complete, checksum: 1ac9cedb
+INFO: [Common 17-83] Releasing license: Synthesis
+460 Infos, 168 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:35 ; elapsed = 00:01:41 . Memory (MB): peak = 1379.387 ; gain = 125.699
+INFO: [Common 17-1381] The checkpoint 'E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1/TOP_MTDS_PmodMTDS_0_0.dcp' has been generated.
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Coretcl 2-1174] Renamed 83 cell refs.
+INFO: [Common 17-1381] The checkpoint 'E:/Projects/MTDS/MTDS.runs/TOP_MTDS_PmodMTDS_0_0_synth_1/TOP_MTDS_PmodMTDS_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TOP_MTDS_PmodMTDS_0_0_utilization_synth.rpt -pb TOP_MTDS_PmodMTDS_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 15 14:14:12 2022...

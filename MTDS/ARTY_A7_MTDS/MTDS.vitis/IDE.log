@@ -1,0 +1,94 @@
+14:20:52 INFO  : Platform repository initialization has completed.
+14:20:52 INFO  : Launching XSCT server: xsct.bat -n  -interactive E:\Projects\MTDS\MTDS.vitis\temp_xsdb_launch_script.tcl
+14:20:52 INFO  : Registering command handlers for Vitis TCF services
+14:20:57 INFO  : XSCT server has started successfully.
+14:21:00 INFO  : plnx-install-location is set to ''
+14:21:00 INFO  : Successfully done setting XSCT server connection channel  
+14:21:00 INFO  : Successfully done query RDI_DATADIR 
+14:21:00 INFO  : Successfully done setting workspace for the tool. 
+14:22:02 INFO  : Result from executing command 'getProjects': MTDS_Platform
+14:22:02 INFO  : Result from executing command 'getPlatforms': 
+14:22:20 INFO  : Result from executing command 'getProjects': MTDS_Platform
+14:22:21 INFO  : Result from executing command 'getPlatforms': MTDS_Platform|E:/Projects/MTDS/MTDS.vitis/MTDS_Platform/export/MTDS_Platform/MTDS_Platform.xpfm
+14:30:36 INFO  : Checking for BSP changes to sync application flags for project 'MTDS_App'...
+14:31:33 INFO  : Bit file 'E:/Projects/MTDS/MTDS.vitis/MTDS_App/_ide/bitstream/download.bit' is generated.
+14:31:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:31:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B26CF3A" && level==0 && jtag_device_ctx=="jsn-Arty A7-100T-210319B26CF3A-13631093-0"}' command is executed.
+14:31:39 INFO  : Device configured successfully with "E:/Projects/MTDS/MTDS.vitis/MTDS_App/_ide/bitstream/download.bit"
+14:31:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:31:57 INFO  : Jtag cable 'Digilent Arty A7-100T 210319B26CF3A' is selected.
+14:31:57 INFO  : 'jtag frequency' command is executed.
+14:31:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B26CF3A" && level==0 && jtag_device_ctx=="jsn-Arty A7-100T-210319B26CF3A-13631093-0"}' command is executed.
+14:32:00 INFO  : Device configured successfully with "E:/Projects/MTDS/MTDS.vitis/MTDS_App/_ide/bitstream/download.bit"
+14:32:00 INFO  : Context for processor 'microblaze_0' is selected.
+14:32:00 INFO  : Hardware design and registers information is loaded from 'E:/Projects/MTDS/MTDS.vitis/MTDS_Platform/export/MTDS_Platform/hw/TOP_MTDS_wrapper.xsa'.
+14:32:00 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:32:00 INFO  : Context for processor 'microblaze_0' is selected.
+14:32:00 INFO  : System reset is completed.
+14:32:03 INFO  : 'after 3000' command is executed.
+14:32:03 INFO  : Context for processor 'microblaze_0' is selected.
+14:32:03 INFO  : The application 'E:/Projects/MTDS/MTDS.vitis/MTDS_App/Debug/MTDS_App.elf' is downloaded to processor 'microblaze_0'.
+14:32:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B26CF3A" && level==0 && jtag_device_ctx=="jsn-Arty A7-100T-210319B26CF3A-13631093-0"}
+fpga -file E:/Projects/MTDS/MTDS.vitis/MTDS_App/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw E:/Projects/MTDS/MTDS.vitis/MTDS_Platform/export/MTDS_Platform/hw/TOP_MTDS_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Projects/MTDS/MTDS.vitis/MTDS_App/Debug/MTDS_App.elf
+----------------End of Script----------------
+
+14:32:04 INFO  : Context for processor 'microblaze_0' is selected.
+14:32:04 INFO  : 'con' command is executed.
+14:32:04 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:32:04 INFO  : Launch script is exported to file 'E:\Projects\MTDS\MTDS.vitis\MTDS_App_system\_ide\scripts\debugger_mtds_app-default.tcl'
+14:38:07 INFO  : Checking for BSP changes to sync application flags for project 'MTDS_App'...
+14:38:59 INFO  : Bit file 'E:/Projects/MTDS/MTDS.vitis/MTDS_App/_ide/bitstream/download.bit' is generated.
+14:38:59 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:39:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B26CF3A" && level==0 && jtag_device_ctx=="jsn-Arty A7-100T-210319B26CF3A-13631093-0"}' command is executed.
+14:39:02 INFO  : Device configured successfully with "E:/Projects/MTDS/MTDS.vitis/MTDS_App/_ide/bitstream/download.bit"
+14:39:23 INFO  : Disconnected from the channel tcfchan#2.
+14:39:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:39:24 INFO  : Jtag cable 'Digilent Arty A7-100T 210319B26CF3A' is selected.
+14:39:24 INFO  : 'jtag frequency' command is executed.
+14:39:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B26CF3A" && level==0 && jtag_device_ctx=="jsn-Arty A7-100T-210319B26CF3A-13631093-0"}' command is executed.
+14:39:26 INFO  : Device configured successfully with "E:/Projects/MTDS/MTDS.vitis/MTDS_App/_ide/bitstream/download.bit"
+14:39:26 INFO  : Context for processor 'microblaze_0' is selected.
+14:39:27 INFO  : Hardware design and registers information is loaded from 'E:/Projects/MTDS/MTDS.vitis/MTDS_Platform/export/MTDS_Platform/hw/TOP_MTDS_wrapper.xsa'.
+14:39:27 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:39:27 INFO  : Context for processor 'microblaze_0' is selected.
+14:39:27 INFO  : System reset is completed.
+14:39:30 INFO  : 'after 3000' command is executed.
+14:39:30 INFO  : Context for processor 'microblaze_0' is selected.
+14:39:30 INFO  : The application 'E:/Projects/MTDS/MTDS.vitis/MTDS_App/Debug/MTDS_App.elf' is downloaded to processor 'microblaze_0'.
+14:39:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Arty A7-100T 210319B26CF3A" && level==0 && jtag_device_ctx=="jsn-Arty A7-100T-210319B26CF3A-13631093-0"}
+fpga -file E:/Projects/MTDS/MTDS.vitis/MTDS_App/_ide/bitstream/download.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw E:/Projects/MTDS/MTDS.vitis/MTDS_Platform/export/MTDS_Platform/hw/TOP_MTDS_wrapper.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow E:/Projects/MTDS/MTDS.vitis/MTDS_App/Debug/MTDS_App.elf
+----------------End of Script----------------
+
+14:39:30 INFO  : Context for processor 'microblaze_0' is selected.
+14:39:31 INFO  : 'con' command is executed.
+14:39:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:39:31 INFO  : Launch script is exported to file 'E:\Projects\MTDS\MTDS.vitis\MTDS_App_system\_ide\scripts\debugger_mtds_app-default.tcl'
+15:48:01 INFO  : Disconnected from the channel tcfchan#3.
