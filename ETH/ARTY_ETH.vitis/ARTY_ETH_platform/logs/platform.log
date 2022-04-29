@@ -1,0 +1,1499 @@
+TRACE::2022-04-29.12:18:00::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:00::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:00::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:00::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:00::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:00::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:00::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-04-29.12:18:01::SCWPlatform::Opened new HwDB with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWWriter::formatted JSON is {
+	"platformName":	"ARTY_ETH_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ARTY_ETH_platform",
+	"platHandOff":	"E:/ARTY_projects/ARTY_ETH/TOP_ARTY_ETH_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_ARTY_ETH_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2022-04-29.12:18:01::SCWWriter::formatted JSON is {
+	"platformName":	"ARTY_ETH_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ARTY_ETH_platform",
+	"platHandOff":	"E:/ARTY_projects/ARTY_ETH/TOP_ARTY_ETH_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_ARTY_ETH_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ARTY_ETH_platform",
+	"systems":	[{
+			"systemName":	"ARTY_ETH_platform",
+			"systemDesc":	"ARTY_ETH_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ARTY_ETH_platform"
+		}]
+}
+TRACE::2022-04-29.12:18:01::SCWPlatform::Boot application domains not present, creating them
+TRACE::2022-04-29.12:18:01::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2022-04-29.12:18:01::SCWWriter::formatted JSON is {
+	"platformName":	"ARTY_ETH_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ARTY_ETH_platform",
+	"platHandOff":	"E:/ARTY_projects/ARTY_ETH/TOP_ARTY_ETH_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_ARTY_ETH_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ARTY_ETH_platform",
+	"systems":	[{
+			"systemName":	"ARTY_ETH_platform",
+			"systemDesc":	"ARTY_ETH_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ARTY_ETH_platform"
+		}]
+}
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:01::SCWDomain::checking for install qemu data   : 
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:01::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:01::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:01::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-04-29.12:18:01::SCWMssOS::No sw design opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:01::SCWMssOS::mss does not exists at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:01::SCWMssOS::Creating sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:01::SCWMssOS::Adding the swdes entry, created swdb E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss with des name E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:01::SCWMssOS::updating the scw layer changes to swdes at   E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:01::SCWMssOS::Writing mss at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:01::SCWMssOS::Completed writing the mss file at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-04-29.12:18:01::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2022-04-29.12:18:01::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2022-04-29.12:18:01::SCWMssOS::Completed writing the mss file at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-04-29.12:18:01::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2022-04-29.12:18:02::SCWMssOS::Saving the mss changes E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::Adding the swdes entry, mss present, able to open swdb E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-04-29.12:18:02::SCWMssOS::Writing the mss file completed E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWWriter::formatted JSON is {
+	"platformName":	"ARTY_ETH_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ARTY_ETH_platform",
+	"platHandOff":	"E:/ARTY_projects/ARTY_ETH/TOP_ARTY_ETH_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_ARTY_ETH_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ARTY_ETH_platform",
+	"systems":	[{
+			"systemName":	"ARTY_ETH_platform",
+			"systemDesc":	"ARTY_ETH_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ARTY_ETH_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"63d89ce0b3c2b2c7cc30245a57963ea3",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2022-04-29.12:18:02::SCWPlatform::Started generating the artifacts platform ARTY_ETH_platform
+TRACE::2022-04-29.12:18:02::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-04-29.12:18:02::SCWPlatform::Started generating the artifacts for system configuration ARTY_ETH_platform
+LOG::2022-04-29.12:18:02::SCWSystem::Checking the domain standalone_domain
+LOG::2022-04-29.12:18:02::SCWSystem::Not a boot domain 
+LOG::2022-04-29.12:18:02::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-04-29.12:18:02::SCWDomain::Generating domain artifcats
+TRACE::2022-04-29.12:18:02::SCWMssOS::Generating standalone artifcats
+TRACE::2022-04-29.12:18:02::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::Completed writing the mss file at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-04-29.12:18:02::SCWMssOS::Mss edits present, copying mssfile into export location E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-04-29.12:18:02::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-04-29.12:18:02::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-04-29.12:18:02::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-04-29.12:18:02::SCWMssOS::Copying to export directory.
+TRACE::2022-04-29.12:18:02::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-04-29.12:18:02::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-04-29.12:18:02::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-04-29.12:18:02::SCWSystem::Completed Processing the sysconfig ARTY_ETH_platform
+LOG::2022-04-29.12:18:02::SCWPlatform::Completed generating the artifacts for system configuration ARTY_ETH_platform
+TRACE::2022-04-29.12:18:02::SCWPlatform::Started preparing the platform 
+TRACE::2022-04-29.12:18:02::SCWSystem::Writing the bif file for system config ARTY_ETH_platform
+TRACE::2022-04-29.12:18:02::SCWSystem::dir created 
+TRACE::2022-04-29.12:18:02::SCWSystem::Writing the bif 
+TRACE::2022-04-29.12:18:02::SCWPlatform::Started writing the spfm file 
+TRACE::2022-04-29.12:18:02::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-04-29.12:18:02::SCWPlatform::Completed generating the platform
+TRACE::2022-04-29.12:18:02::SCWMssOS::Saving the mss changes E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.12:18:02::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.12:18:02::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWWriter::formatted JSON is {
+	"platformName":	"ARTY_ETH_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ARTY_ETH_platform",
+	"platHandOff":	"E:/ARTY_projects/ARTY_ETH/TOP_ARTY_ETH_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_ARTY_ETH_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ARTY_ETH_platform",
+	"systems":	[{
+			"systemName":	"ARTY_ETH_platform",
+			"systemDesc":	"ARTY_ETH_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ARTY_ETH_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"63d89ce0b3c2b2c7cc30245a57963ea3",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-04-29.12:18:02::SCWPlatform::updated the xpfm file.
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::Saving the mss changes E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.12:18:02::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.12:18:02::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWWriter::formatted JSON is {
+	"platformName":	"ARTY_ETH_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ARTY_ETH_platform",
+	"platHandOff":	"E:/ARTY_projects/ARTY_ETH/TOP_ARTY_ETH_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_ARTY_ETH_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ARTY_ETH_platform",
+	"systems":	[{
+			"systemName":	"ARTY_ETH_platform",
+			"systemDesc":	"ARTY_ETH_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ARTY_ETH_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"63d89ce0b3c2b2c7cc30245a57963ea3",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::Saving the mss changes E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.12:18:02::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.12:18:02::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWWriter::formatted JSON is {
+	"platformName":	"ARTY_ETH_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ARTY_ETH_platform",
+	"platHandOff":	"E:/ARTY_projects/ARTY_ETH/TOP_ARTY_ETH_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_ARTY_ETH_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ARTY_ETH_platform",
+	"systems":	[{
+			"systemName":	"ARTY_ETH_platform",
+			"systemDesc":	"ARTY_ETH_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ARTY_ETH_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"63d89ce0b3c2b2c7cc30245a57963ea3",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-04-29.12:18:02::SCWMssOS::Saving the mss changes E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.12:18:02::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.12:18:02::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:02::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:02::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWWriter::formatted JSON is {
+	"platformName":	"ARTY_ETH_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ARTY_ETH_platform",
+	"platHandOff":	"E:/ARTY_projects/ARTY_ETH/TOP_ARTY_ETH_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_ARTY_ETH_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ARTY_ETH_platform",
+	"systems":	[{
+			"systemName":	"ARTY_ETH_platform",
+			"systemDesc":	"ARTY_ETH_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ARTY_ETH_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"63d89ce0b3c2b2c7cc30245a57963ea3",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-04-29.12:18:02::SCWPlatform::Clearing the existing platform
+TRACE::2022-04-29.12:18:02::SCWSystem::Clearing the existing sysconfig
+TRACE::2022-04-29.12:18:02::SCWMssOS::Removing the swdes entry for  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:02::SCWSystem::Clearing the domains completed.
+TRACE::2022-04-29.12:18:02::SCWPlatform::Clearing the opened hw db.
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform location is E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Removing the HwDB with name E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:02::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:02::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-04-29.12:18:03::SCWPlatform::Opened new HwDB with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:03::SCWReader::Active system found as  ARTY_ETH_platform
+TRACE::2022-04-29.12:18:03::SCWReader::Handling sysconfig ARTY_ETH_platform
+TRACE::2022-04-29.12:18:03::SCWDomain::checking for install qemu data   : 
+TRACE::2022-04-29.12:18:03::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:03::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:03::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:03::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:03::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:03::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:03::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:03::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:03::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:03::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:03::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:03::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:03::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:03::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:03::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:03::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:03::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:03::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-04-29.12:18:03::SCWMssOS::No sw design opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:03::SCWMssOS::mss exists loading the mss file  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:03::SCWMssOS::Opened the sw design from mss  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:03::SCWMssOS::Adding the swdes entry E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-04-29.12:18:03::SCWMssOS::updating the scw layer about changes
+TRACE::2022-04-29.12:18:03::SCWMssOS::Opened the sw design.  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:03::SCWMssOS::Saving the mss changes E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:03::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.12:18:03::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.12:18:03::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.12:18:03::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-04-29.12:18:03::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-04-29.12:18:03::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:03::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:03::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:03::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:03::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:03::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:03::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:03::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:03::SCWReader::No isolation master present  
+TRACE::2022-04-29.12:18:08::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:08::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:08::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:08::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:08::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:08::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:08::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:08::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:08::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:08::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:08::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:09::SCWMssOS::In reload Mss file.
+TRACE::2022-04-29.12:18:09::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:09::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:09::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:09::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:09::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:09::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:09::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:09::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:09::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:09::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-04-29.12:18:09::SCWMssOS::No sw design opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:09::SCWMssOS::mss exists loading the mss file  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:09::SCWMssOS::Opened the sw design from mss  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:09::SCWMssOS::Adding the swdes entry E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-04-29.12:18:09::SCWMssOS::updating the scw layer about changes
+TRACE::2022-04-29.12:18:09::SCWMssOS::Opened the sw design.  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:09::SCWMssOS::Saving the mss changes E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:09::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.12:18:09::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.12:18:09::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.12:18:09::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:09::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:09::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:09::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:09::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:09::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:09::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:09::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:09::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:09::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:09::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:09::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:09::SCWMssOS::Removing the swdes entry for  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:11::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:11::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:11::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:11::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:11::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:11::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:11::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:11::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:11::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:11::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:11::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-04-29.12:18:11::SCWMssOS::No sw design opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:11::SCWMssOS::mss exists loading the mss file  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:11::SCWMssOS::Opened the sw design from mss  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:11::SCWMssOS::Adding the swdes entry E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-04-29.12:18:11::SCWMssOS::updating the scw layer about changes
+TRACE::2022-04-29.12:18:11::SCWMssOS::Opened the sw design.  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:15::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:15::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:15::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:15::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:15::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:15::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:15::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:15::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:15::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:15::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:15::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:15::SCWMssOS::Adding Library:  lwip211:1.6
+TRACE::2022-04-29.12:18:15::SCWMssOS::Added Library:  lwip211
+TRACE::2022-04-29.12:18:15::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:15::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:15::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:15::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:15::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:15::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:15::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:15::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:15::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:15::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:15::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Saving the mss changes E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.12:18:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.12:18:34::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWWriter::formatted JSON is {
+	"platformName":	"ARTY_ETH_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ARTY_ETH_platform",
+	"platHandOff":	"E:/ARTY_projects/ARTY_ETH/TOP_ARTY_ETH_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_ARTY_ETH_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ARTY_ETH_platform",
+	"systems":	[{
+			"systemName":	"ARTY_ETH_platform",
+			"systemDesc":	"ARTY_ETH_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ARTY_ETH_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"63d89ce0b3c2b2c7cc30245a57963ea3",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip211:1.6"],
+					"libOptions":	{
+						"lwip211":	{
+							"phy_link_speed":	"CONFIG_LINKSPEED100",
+							"libOptionNames":	["phy_link_speed"]
+						},
+						"libsContainingOptions":	["lwip211"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2022-04-29.12:18:34::SCWMssOS::Saving the mss changes E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.12:18:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.12:18:34::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Removing the swdes entry for  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::In reload Mss file.
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-04-29.12:18:34::SCWMssOS::No sw design opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::mss exists loading the mss file  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Opened the sw design from mss  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Adding the swdes entry E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-04-29.12:18:34::SCWMssOS::updating the scw layer about changes
+TRACE::2022-04-29.12:18:34::SCWMssOS::Opened the sw design.  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS:: library already available in sw design:  lwip211:1.6
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Saving the mss changes E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.12:18:34::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.12:18:34::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:18:34::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Removing the swdes entry for  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:34::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:34::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:34::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:34::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-04-29.12:18:34::SCWMssOS::No sw design opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::mss exists loading the mss file  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Opened the sw design from mss  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Adding the swdes entry E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-04-29.12:18:34::SCWMssOS::updating the scw layer about changes
+TRACE::2022-04-29.12:18:34::SCWMssOS::Opened the sw design.  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:34::SCWMssOS::Completed writing the mss file at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-04-29.12:18:34::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2022-04-29.12:18:47::SCWPlatform::Started generating the artifacts platform ARTY_ETH_platform
+TRACE::2022-04-29.12:18:47::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-04-29.12:18:47::SCWPlatform::Started generating the artifacts for system configuration ARTY_ETH_platform
+LOG::2022-04-29.12:18:47::SCWSystem::Checking the domain standalone_domain
+LOG::2022-04-29.12:18:47::SCWSystem::Not a boot domain 
+LOG::2022-04-29.12:18:47::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-04-29.12:18:47::SCWDomain::Generating domain artifcats
+TRACE::2022-04-29.12:18:47::SCWMssOS::Generating standalone artifcats
+TRACE::2022-04-29.12:18:47::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-04-29.12:18:47::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:47::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:47::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:47::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:18:47::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:18:47::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:18:47::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:47::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:18:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:18:47::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:47::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-04-29.12:18:47::SCWMssOS::No sw design opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:47::SCWMssOS::mss exists loading the mss file  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:47::SCWMssOS::Opened the sw design from mss  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:47::SCWMssOS::Adding the swdes entry E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss with des name system
+TRACE::2022-04-29.12:18:47::SCWMssOS::updating the scw layer about changes
+TRACE::2022-04-29.12:18:47::SCWMssOS::Opened the sw design.  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:47::SCWMssOS::Completed writing the mss file at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp
+TRACE::2022-04-29.12:18:47::SCWMssOS::Mss edits present, copying mssfile into export location E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:18:47::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-04-29.12:18:47::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-04-29.12:18:47::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2022-04-29.12:18:47::SCWMssOS::doing bsp build ... 
+TRACE::2022-04-29.12:18:47::SCWMssOS::System Command Ran  E: & cd  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp & make 
+TRACE::2022-04-29.12:18:47::SCWMssOS::make --no-print-directory seq_libs
+
+TRACE::2022-04-29.12:18:47::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2022-04-29.12:18:47::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-04-29.12:18:47::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-04-29.12:18:47::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:18:47::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2022-04-29.12:18:47::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-04-29.12:18:47::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-04-29.12:18:47::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:18:47::SCWMssOS::"Running Make include in microblaze_0/libsrc/emaclite_v4_7/src"
+
+TRACE::2022-04-29.12:18:47::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-04-29.12:18:47::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-04-29.12:18:47::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:18:47::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2022-04-29.12:18:47::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-04-29.12:18:47::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-04-29.12:18:47::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:18:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/lwip211_v1_6/src"
+
+TRACE::2022-04-29.12:18:48::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-04-29.12:18:48::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-04-29.12:18:48::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:18:48::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-04-29.12:18:48::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-04-29.12:18:48::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-04-29.12:18:48::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:18:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_8/src"
+
+TRACE::2022-04-29.12:18:50::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-04-29.12:18:50::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-04-29.12:18:50::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:18:50::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2022-04-29.12:18:50::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-04-29.12:18:50::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-04-29.12:18:50::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:18:51::SCWMssOS::"Running Make libs in microblaze_0/libsrc/lwip211_v1_6/src"
+
+TRACE::2022-04-29.12:18:51::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-04-29.12:18:51::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-04-29.12:18:51::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:18:51::SCWMssOS::"Compiling lwip src and adapter files"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::'Finished building libraries sequentially.'
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::make -j 6 --no-print-directory par_libs
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-04-29.12:19:00::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-04-29.12:19:00::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2022-04-29.12:19:00::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2022-04-29.12:19:00::SCWMssOS::-Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/emaclite_v4_7/src"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_7/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-04-29.12:19:00::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-04-29.12:19:00::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-04-29.12:19:00::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-04-29.12:19:00::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/lwip211_v1_6/src"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::make -C microblaze_0/libsrc/lwip211_v1_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-04-29.12:19:00::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-04-29.12:19:00::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2022-04-29.12:19:00::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2022-04-29.12:19:00::SCWMssOS::-Wall -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/tmrctr_v4_8/src"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPI
+TRACE::2022-04-29.12:19:00::SCWMssOS::LER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wal
+TRACE::2022-04-29.12:19:00::SCWMssOS::l -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2022-04-29.12:19:00::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2022-04-29.12:19:00::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2022-04-29.12:19:00::SCWMssOS::all -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_7/src"
+
+TRACE::2022-04-29.12:19:01::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-04-29.12:19:01::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-04-29.12:19:01::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_14/src"
+
+TRACE::2022-04-29.12:19:01::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_14/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2022-04-29.12:19:01::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2022-04-29.12:19:01::SCWMssOS::xtra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/emaclite_v4_7/src"
+
+TRACE::2022-04-29.12:19:01::SCWMssOS::make -C microblaze_0/libsrc/emaclite_v4_7/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-04-29.12:19:01::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-04-29.12:19:01::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:01::SCWMssOS::"Running Make libs in microblaze_0/libsrc/intc_v3_13/src"
+
+TRACE::2022-04-29.12:19:01::SCWMssOS::make -C microblaze_0/libsrc/intc_v3_13/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_
+TRACE::2022-04-29.12:19:01::SCWMssOS::FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -W
+TRACE::2022-04-29.12:19:01::SCWMssOS::extra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:02::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_6/src"
+
+TRACE::2022-04-29.12:19:02::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2022-04-29.12:19:02::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2022-04-29.12:19:02::SCWMssOS::ll -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:02::SCWMssOS::"Running Make libs in microblaze_0/libsrc/tmrctr_v4_8/src"
+
+TRACE::2022-04-29.12:19:02::SCWMssOS::make -C microblaze_0/libsrc/tmrctr_v4_8/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER
+TRACE::2022-04-29.12:19:02::SCWMssOS::_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -
+TRACE::2022-04-29.12:19:02::SCWMssOS::Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:03::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_6/src"
+
+TRACE::2022-04-29.12:19:03::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2022-04-29.12:19:03::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2022-04-29.12:19:03::SCWMssOS:: -Wextra -fno-tree-loop-distribute-patterns"
+
+TRACE::2022-04-29.12:19:09::SCWMssOS::"DEBUG NON_LTO_OBJECTS is ../../../lib/microblaze_interrupt_handler.o"
+
+TRACE::2022-04-29.12:19:09::SCWMssOS::'Finished building libraries parallelly.'
+
+TRACE::2022-04-29.12:19:09::SCWMssOS::make --no-print-directory archive
+
+TRACE::2022-04-29.12:19:09::SCWMssOS::mb-ar -r  microblaze_0/lib/libxil.a microblaze_0/lib/xplatform_info.o microblaze_0/lib/xuartlite.o microblaze_0/lib/microblaze_
+TRACE::2022-04-29.12:19:09::SCWMssOS::disable_exceptions.o microblaze_0/lib/print.o microblaze_0/lib/xemaclite_intr.o microblaze_0/lib/xtmrctr_options.o microblaze_0
+TRACE::2022-04-29.12:19:09::SCWMssOS::/lib/_exit.o microblaze_0/lib/xil_testio.o microblaze_0/lib/microblaze_disable_dcache.o microblaze_0/lib/microblaze_flush_dcach
+TRACE::2022-04-29.12:19:09::SCWMssOS::e_range.o microblaze_0/lib/xuartlite_sinit.o microblaze_0/lib/microblaze_flush_cache_ext.o microblaze_0/lib/xil_misc_psreset_ap
+TRACE::2022-04-29.12:19:09::SCWMssOS::i.o microblaze_0/lib/xtmrctr.o microblaze_0/lib/xil_cache.o microblaze_0/lib/inbyte.o microblaze_0/lib/xbram_g.o microblaze_0/l
+TRACE::2022-04-29.12:19:09::SCWMssOS::ib/xuartlite_stats.o microblaze_0/lib/microblaze_exception_handler.o microblaze_0/lib/xbram_sinit.o microblaze_0/lib/microblaze
+TRACE::2022-04-29.12:19:09::SCWMssOS::_scrub.o microblaze_0/lib/microblaze_invalidate_dcache.o microblaze_0/lib/microblaze_disable_interrupts.o microblaze_0/lib/xbra
+TRACE::2022-04-29.12:19:09::SCWMssOS::m_selftest.o microblaze_0/lib/microblaze_interrupt_handler.o microblaze_0/lib/microblaze_disable_icache.o microblaze_0/lib/xil_
+TRACE::2022-04-29.12:19:09::SCWMssOS::mem.o microblaze_0/lib/xemaclite.o microblaze_0/lib/xuartlite_intr.o microblaze_0/lib/microblaze_flush_cache_ext_range.o microb
+TRACE::2022-04-29.12:19:09::SCWMssOS::laze_0/lib/xbram_intr.o microblaze_0/lib/xil_sleepcommon.o microblaze_0/lib/xil_printf.o microblaze_0/lib/xintc_g.o microblaze_
+TRACE::2022-04-29.12:19:09::SCWMssOS::0/lib/xuartlite_g.o microblaze_0/lib/xintc_selftest.o microblaze_0/lib/xintc_l.o microblaze_0/lib/outbyte.o microblaze_0/lib/xt
+TRACE::2022-04-29.12:19:09::SCWMssOS::mrctr_intr.o microblaze_0/lib/microblaze_invalidate_dcache_range.o microblaze_0/lib/microblaze_invalidate_cache_ext.o microblaz
+TRACE::2022-04-29.12:19:09::SCWMssOS::e_0/lib/microblaze_update_icache.o microblaze_0/lib/microblaze_sleep.o microblaze_0/lib/hw_exception_handler.o microblaze_0/lib
+TRACE::2022-04-29.12:19:09::SCWMssOS::/xuartlite_selftest.o microblaze_0/lib/microblaze_update_dcache.o microblaze_0/lib/xil_testcache.o microblaze_0/lib/microblaze_
+TRACE::2022-04-29.12:19:09::SCWMssOS::selftest.o microblaze_0/lib/microblaze_interrupts_g.o microblaze_0/lib/xemaclite_g.o microblaze_0/lib/microblaze_enable_excepti
+TRACE::2022-04-29.12:19:09::SCWMssOS::ons.o microblaze_0/lib/xio.o microblaze_0/lib/xtmrctr_g.o microblaze_0/lib/microblaze_enable_dcache.o microblaze_0/lib/xbram.o 
+TRACE::2022-04-29.12:19:09::SCWMssOS::microblaze_0/lib/microblaze_invalidate_icache_range.o microblaze_0/lib/xtmrctr_selftest.o microblaze_0/lib/microblaze_init_dcac
+TRACE::2022-04-29.12:19:09::SCWMssOS::he_range.o microblaze_0/lib/microblaze_invalidate_icache.o microblaze_0/lib/errno.o microblaze_0/lib/xuartlite_l.o microblaze_0
+TRACE::2022-04-29.12:19:09::SCWMssOS::/lib/xil_util.o microblaze_0/lib/xintc_options.o microblaze_0/lib/microblaze_invalidate_cache_ext_range.o microblaze_0/lib/xint
+TRACE::2022-04-29.12:19:09::SCWMssOS::c_intr.o microblaze_0/lib/xil_exception.o microblaze_0/lib/pvr.o microblaze_0/lib/xtmrctr_l.o microblaze_0/lib/xil_testmem.o mi
+TRACE::2022-04-29.12:19:09::SCWMssOS::croblaze_0/lib/xemaclite_l.o microblaze_0/lib/microblaze_flush_dcache.o microblaze_0/lib/xil_clocking.o microblaze_0/lib/xil_as
+TRACE::2022-04-29.12:19:09::SCWMssOS::sert.o microblaze_0/lib/microblaze_enable_interrupts.o microblaze_0/lib/xemaclite_sinit.o microblaze_0/lib/microblaze_enable_ic
+TRACE::2022-04-29.12:19:09::SCWMssOS::ache.o microblaze_0/lib/xintc.o microblaze_0/lib/xemaclite_selftest.o microblaze_0/lib/xtmrctr_stats.o microblaze_0/lib/xtmrctr
+TRACE::2022-04-29.12:19:09::SCWMssOS::_sinit.o microblaze_0/lib/fcntl.o microblaze_0/lib/microblaze_init_icache_range.o
+
+TRACE::2022-04-29.12:19:09::SCWMssOS::'Finished building libraries'
+
+TRACE::2022-04-29.12:19:10::SCWMssOS::Copying to export directory.
+TRACE::2022-04-29.12:19:10::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-04-29.12:19:10::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-04-29.12:19:10::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-04-29.12:19:10::SCWSystem::Completed Processing the sysconfig ARTY_ETH_platform
+LOG::2022-04-29.12:19:10::SCWPlatform::Completed generating the artifacts for system configuration ARTY_ETH_platform
+TRACE::2022-04-29.12:19:10::SCWPlatform::Started preparing the platform 
+TRACE::2022-04-29.12:19:10::SCWSystem::Writing the bif file for system config ARTY_ETH_platform
+TRACE::2022-04-29.12:19:10::SCWSystem::dir created 
+TRACE::2022-04-29.12:19:10::SCWSystem::Writing the bif 
+TRACE::2022-04-29.12:19:10::SCWPlatform::Started writing the spfm file 
+TRACE::2022-04-29.12:19:10::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-04-29.12:19:10::SCWPlatform::Completed generating the platform
+TRACE::2022-04-29.12:19:10::SCWMssOS::Saving the mss changes E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:19:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2022-04-29.12:19:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2022-04-29.12:19:10::SCWMssOS::Commit changes completed.
+TRACE::2022-04-29.12:19:10::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:19:10::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:19:10::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:19:10::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:19:10::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:19:10::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:19:10::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:19:10::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:19:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:19:10::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:19:10::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:19:10::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:19:10::SCWWriter::formatted JSON is {
+	"platformName":	"ARTY_ETH_platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"ARTY_ETH_platform",
+	"platHandOff":	"E:/ARTY_projects/ARTY_ETH/TOP_ARTY_ETH_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/TOP_ARTY_ETH_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"ARTY_ETH_platform",
+	"systems":	[{
+			"systemName":	"ARTY_ETH_platform",
+			"systemDesc":	"ARTY_ETH_platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"ARTY_ETH_platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.6",
+					"mssFile":	"",
+					"md5Digest":	"8f09a522e3e1b588ee94f8dcd6015020",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["lwip211:1.6"],
+					"libOptions":	{
+						"lwip211":	{
+							"phy_link_speed":	"CONFIG_LINKSPEED100",
+							"libOptionNames":	["phy_link_speed"]
+						},
+						"libsContainingOptions":	["lwip211"]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-04-29.12:19:10::SCWPlatform::updated the xpfm file.
+TRACE::2022-04-29.12:19:10::SCWPlatform::Trying to open the hw design at E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:19:10::SCWPlatform::DSA given E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:19:10::SCWPlatform::DSA absoulate path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:19:10::SCWPlatform::DSA directory E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw
+TRACE::2022-04-29.12:19:10::SCWPlatform:: Platform Path E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/hw/TOP_ARTY_ETH_wrapper.xsa
+TRACE::2022-04-29.12:19:10::SCWPlatform:: Unique name xilinx:arty-a7-100::0.0
+TRACE::2022-04-29.12:19:10::SCWPlatform::Trying to set the existing hwdb with name TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:19:10::SCWPlatform::Opened existing hwdb TOP_ARTY_ETH_wrapper_1
+TRACE::2022-04-29.12:19:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-04-29.12:19:10::SCWMssOS::Checking the sw design at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2022-04-29.12:19:10::SCWMssOS::DEBUG:  swdes dump  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss|system||
+
+TRACE::2022-04-29.12:19:10::SCWMssOS::Sw design exists and opened at  E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/microblaze_0/standalone_domain/bsp/system.mss

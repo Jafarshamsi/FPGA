@@ -1,0 +1,7 @@
+timestamp=[2022-04-29 12:16:48], mode=WORKBENCH_START, duration=0:00:04.546, duration_ms=4546, data={}
+timestamp=[2022-04-29 12:16:48], mode=WORKBENCH_UI_INIT, duration=0:00:00.381, duration_ms=381, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2022-04-29 12:16:49], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.108, duration_ms=108, data={}
+timestamp=[2022-04-29 12:18:02], mode=PLATFORM_CREATION, duration=0:00:01.866, duration_ms=1866, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2022-04-29 12:19:11], mode=PLATFORM_GENERATION, duration=0:00:26.975, duration_ms=26975, data={name=ARTY_ETH_platform}
+timestamp=[2022-04-29 12:19:43], mode=APP_CREATION, duration=0:00:02.399, duration_ms=2399, data={name=ARTY_ETH_echo_server, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=ARTY_ETH_platform, application_type=application}
+timestamp=[2022-04-29 12:19:57], mode=BUILD, duration=0:00:05.073, duration_ms=5073, data={name=ARTY_ETH_echo_server, configuration=Debug, clean_build=false}

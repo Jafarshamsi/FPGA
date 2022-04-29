@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:48:09 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Fri Apr 29 11:39:32 2022
+# Process ID: 6496
+# Current directory: E:/ARTY_projects/ARTY_ETH/ARTY_ETH.runs/TOP_ARTY_ETH_auto_ds_3_synth_1
+# Command line: vivado.exe -log TOP_ARTY_ETH_auto_ds_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP_ARTY_ETH_auto_ds_3.tcl
+# Log file: E:/ARTY_projects/ARTY_ETH/ARTY_ETH.runs/TOP_ARTY_ETH_auto_ds_3_synth_1/TOP_ARTY_ETH_auto_ds_3.vds
+# Journal file: E:/ARTY_projects/ARTY_ETH/ARTY_ETH.runs/TOP_ARTY_ETH_auto_ds_3_synth_1\vivado.jou
+# Running On: BlueRoseNew, OS: Windows, CPU Frequency: 1690 MHz, CPU Physical cores: 4, Host memory: 16893 MB
+#-----------------------------------------------------------
+source TOP_ARTY_ETH_auto_ds_3.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1254.383 ; gain = 8.480
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP TOP_ARTY_ETH_auto_ds_3, cache-ID = 68bfd01e2651c491.
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 29 11:39:46 2022...

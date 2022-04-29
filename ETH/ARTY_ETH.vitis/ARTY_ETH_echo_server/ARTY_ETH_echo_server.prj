@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="ARTY_ETH_echo_server" location="E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_echo_server" platform="E:/ARTY_projects/ARTY_ETH/ARTY_ETH.vitis/ARTY_ETH_platform/export/ARTY_ETH_platform/ARTY_ETH_platform.xpfm" platformUID="xilinx:arty-a7-100::0.0(custom)" systemProject="ARTY_ETH_echo_server_system" sysConfig="ARTY_ETH_platform" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="e6e8ad25a316e4c18cb9a19b618c8e2c">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.208356007">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.280417478" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="lwip_echo_server" hasBspSettings="true"/>
+</sdkproject:SdkProject>

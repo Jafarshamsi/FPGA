@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1651253410">
+  <File Type="PA-TCL" Name="TOP_ARTY_ETH_wrapper.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="TOP_ARTY_ETH_wrapper_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="TOP_ARTY_ETH_wrapper_reports.tcl"/>
+  <File Type="RDS-RDS" Name="TOP_ARTY_ETH_wrapper.vds"/>
+  <File Type="RDS-UTIL" Name="TOP_ARTY_ETH_wrapper_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="TOP_ARTY_ETH_wrapper_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="TOP_ARTY_ETH_wrapper.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="TOP_ARTY_ETH_wrapper_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="TOP_ARTY_ETH_wrapper_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/TOP_ARTY_ETH/TOP_ARTY_ETH.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/TOP_ARTY_ETH/hdl/TOP_ARTY_ETH_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/TOP_ARTY_ETH/ip/TOP_ARTY_ETH_mig_7series_0_0/board.prj">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="ScopedToCell" Val="TOP_ARTY_ETH_mig_7series_0_0"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TOP_ARTY_ETH_wrapper"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/arty_eth.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_pc_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_us_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_ds_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_pc_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_lmb_bram_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_us_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_us_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_axi_ethernetlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_pc_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_dlmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_ds_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_pc_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_clk_wiz_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_mig_7series_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_ds_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_rst_mig_7series_0_83M_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_auto_ds_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="TOP_ARTY_ETH_axi_timer_0_0"/>
+</GenRun>

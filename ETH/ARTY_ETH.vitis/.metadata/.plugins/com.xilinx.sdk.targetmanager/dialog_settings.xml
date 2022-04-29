@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="ARTY_ETH_echo_server_system-bitFile" value="${project_loc:ARTY_ETH_echo_server}/_ide/bitstream/TOP_ARTY_ETH_wrapper.bit"/>
+	<item key="ARTY_ETH_echo_server_system-bmmFile" value="${project_loc:ARTY_ETH_echo_server}/_ide/bitstream/TOP_ARTY_ETH_wrapper.mmi"/>
+	<item key="ARTY_ETH_echo_server_system-target" value="Local"/>
+	<item key="ARTY_ETH_echo_server_system-device" value="Auto Detect"/>
+	<item key="ARTY_ETH_echo_server_system-partial_bit" value="false"/>
+	<item key="ARTY_ETH_echo_server_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="ARTY_ETH_echo_server_system"/>
+	<item key="ARTY_ETH_echo_server_system-microblaze_0-initElf" value="bootloop"/>
+	<item key="devices_info_Local" value="{&quot;cables&quot;:[{&quot;name&quot;:&quot;Digilent Arty A7-100T 210319B26CF3A&quot;,&quot;indexContextMap&quot;:{&quot;2&quot;:&quot;jsn-Arty A7-100T-210319B26CF3A-13631093-0&quot;}}]}"/>
+</section>
