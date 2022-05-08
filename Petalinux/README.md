@@ -97,7 +97,7 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
   ```
 
 ***
-## Part 5:  Create tcl file and program the FPGA from Windows
+## Part 5: Create a tcl file and program the FPGA from Windows
 **1. Make a virtual drive for WSL_Ubunto to be able to access it from Windows**
 * Go to \\wsl$\ in file explorer, then dragging the folder onto "This PC" in the navigation pane. WSL will now be accessible through a drive called Y:/, Z:/, or something similar.
 
