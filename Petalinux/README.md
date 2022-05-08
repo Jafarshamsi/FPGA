@@ -123,8 +123,8 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
 
 **7. After booting, test it using**
    ```sh
-   root@arty_petalinux:~# python3
-   >>>> print("Hello World")
+  >> python3
+  >> print("Hello World")
   ```
 
 ***
