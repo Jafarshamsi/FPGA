@@ -1,7 +1,7 @@
 # Run Petalinux on ARTY-A7-100T
 ***
 
-## Part 1: Create a base project including Microblaze and interfaces for ARTY board
+## Part 1: Create a base project including a Microblaze processor and interfaces for ARTY board
 
 ***
 ## Part 2: Install WSL
