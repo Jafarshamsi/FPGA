@@ -119,9 +119,9 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
 
 **5. Connect the FPGA board (ARTY board) and program it by running the bat file (Prog.bat)**
 
-**6. Open putty or mobaXterm or any similar application and connect to the FPGA board through Serial Port
+**6. Open putty or mobaXterm or any similar application and connect to the FPGA board through Serial Port**
 
-**7. After booting, test it using 
+**7. After booting, test it using **
    ```sh
    root@arty_petalinux:~# python3
    >>>> print("Hello World")
