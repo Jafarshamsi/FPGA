@@ -3,15 +3,15 @@
 
 ## Part 1: Install WSL
 **1. Open Windows powershell as administartor**
-**2. Install WSL Ubuntu-18.04 LTS**
+**2. Install WSL_Ubuntu-18.04_LTS**
    ```sh
    wsl --install -d Ubuntu-18.04
    ```
-   QUICK_NOTE: Want to know where it is? Open Ubuntu-18.04 LTS (it is in the windows start menu) and type the following syntax to see the installation folder:
+   QUICK_NOTE: Want to know where WSL_Ubuntu is? Open Ubuntu-18.04 LTS (it is in the windows start menu) and type the following syntax to see the installation folder:
    ```sh
    explorer.exe .
    ```
-   QUICK_NOTE: You can access to any folder in Windows from Ubuntu; type the following syntax to access c:\myfolder ("myfloder" in drive c)
+   QUICK_NOTE: You can access to any folder in Windows from WSL_Ubuntu; type the following syntax to access c:\myfolder ("myfloder" in drive c)
    ```sh
    cd /mnt/c/myfolder
    ```
@@ -25,18 +25,21 @@
    ```sh
    sudo apt-get install -y gcc git make net-tools libncurses5-dev tftpd zlib1g-dev libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev zlib1g:i386 screen pax gzip
    ```
- ## Part 1: Install Petalinux tools
-* download petalinux-v2021.2  [source files (petalinux-v2021.2-final-installer.run)]
+ ## Part 2: Install Petalinux tools
+1. download petalinux-v2021.2 ("petalinux-v2021.2-final-installer.run")  [source files (petalinux-v2021.2-final-installer.run)]
 https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html
 
-4. Copy the source file 
-mkdir petalinux
-cp src/petalinux-v2021.2-final-installer.run petalinux
-
-5. run the source file
-cd petalinux
-./petalinux-v2021.2-final-installer.run
-
+2. Copy the file "petalinux-v2021.2-final-installer.run" from Windows to a folder in WSL_Ubuntu
+* mkdir folder "petalinux" in WSL_Ubuntu and copy from Windows to this folder
+   ```sh
+   mkdir petalinux
+   cp /mnt/[YOUR DOWNLOAD FOLDER]/petalinux-v2021.2-final-installer.run petalinux
+   ```
+3. run the source file
+  ```sh
+  cd petalinux
+  ./petalinux-v2021.2-final-installer.run
+  ```
 Step 6: Edit some language parameters 
 sudo dpkg-reconfigure locales
 sudo update-locale LANG=en_US.UTF-8
