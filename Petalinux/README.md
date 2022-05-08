@@ -1,7 +1,7 @@
 # Run Petalinux on ARTY-A7-100T
 ***
 
-## Part 1: Install WSL & Petalinux tools
+## Part 1: Install WSL
 **1. Open Windows powershell as administartor**
 **2. Install WSL Ubuntu-18.04 LTS**
    ```sh
@@ -25,12 +25,8 @@
    ```sh
    sudo apt-get install -y gcc git make net-tools libncurses5-dev tftpd zlib1g-dev libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev zlib1g:i386 screen pax gzip
    ```
-
-
-
-
-
-3.download petalinux put in [source files (petalinux-v2021.2-final-installer.run)]
+ ## Part 1: Install Petalinux tools
+* download petalinux-v2021.2  [source files (petalinux-v2021.2-final-installer.run)]
 https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html
 
 4. Copy the source file 
