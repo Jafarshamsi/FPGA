@@ -29,24 +29,29 @@
 1. download petalinux-v2021.2 ("petalinux-v2021.2-final-installer.run")  [source files (petalinux-v2021.2-final-installer.run)]
 https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html
 
-2. Copy the file "petalinux-v2021.2-final-installer.run" from Windows to a folder in WSL_Ubuntu
-* mkdir folder "petalinux" in WSL_Ubuntu and copy from Windows to this folder
+2. Create folder "petalinux" in WSL_Ubuntu and copy the file "petalinux-v2021.2-final-installer.run" from Windows to a folder in WSL_Ubuntu
    ```sh
    mkdir petalinux
    cp /mnt/[YOUR DOWNLOAD FOLDER]/petalinux-v2021.2-final-installer.run petalinux
    ```
-3. run the source file
+3. run the source file "petalinux-v2021.2-final-installer.run"
   ```sh
   cd petalinux
   ./petalinux-v2021.2-final-installer.run
   ```
-Step 6: Edit some language parameters 
-sudo dpkg-reconfigure locales
-sudo update-locale LANG=en_US.UTF-8
-
-Step 7: Run the petalinux tools
-sudo dpkg-reconfigure dash
-source ~/petalinux/settings.sh
+4: Edit some language parameters 
+  ```sh
+  sudo dpkg-reconfigure locales 
+  sudo update-locale LANG=en_US.UTF-8
+  ```
+6: On Ubuntu, /bin/sh is a symbolic link to dash. You need to make it a symbolic link to bash instead. Run the following syntax and answer “no”: 
+  ```sh
+  sudo dpkg-reconfigure dash
+  ```
+5: Run the petalinux tools (don’t worry about the tftp warrning!)
+  ```sh
+  source ~/petalinux/settings.sh
+  ```
 
 Part 2 – Creating and building a petalinux project
 Step 1: Create a project directory
