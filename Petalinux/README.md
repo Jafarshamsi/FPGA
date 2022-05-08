@@ -91,17 +91,19 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
   >>>> print("Hello World")	
   ```
 
- ## Part 4:  Create tcl file and program the FPGA
-**1. Create tcl commands**
+ ## Part 4:  Create tcl file and program the FPGA from Windows
+**1. Make a virtual drive for WSL**
+* Go to \\wsl$\ in file explorer, then dragging the folder onto "This PC" in the navigation pane. WSL will now be accessible through a drive called Y:/, Z:/, or something similar.
+
+**2. Create tcl commands**
+  * Go back to WSL environment and create a TCL file
   ```sh
-  petalinux-boot --jtag --fpga --tcl FPGA.tcl
-  petalinux-boot --jtag --kernel --tcl KERNEL.tcl
+  petalinux-boot --jtag --fpga --kernel --tcl FPGA.tcl
   ```
-**2. Combine two tcl files**
-* copy FPGA.tcl and KERNEL.tcl to a folder in Windows
-* open them using notpad++ 
-* copy lines after "FOR LOOP" and before "EXIT" from FGPA.tcl to the KERNEL.tcl (put these 4 lines after "FOR LOOP")
-* remove 
+**2. Modify tcl files**
+* copy FPGA.tcl to a folder in Windows
+* open it using notpad++ 
+* add <your WSL drive letter>:/ to the beginning of each path inside the tcl file
 
 
 
