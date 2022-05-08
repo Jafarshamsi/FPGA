@@ -11,17 +11,21 @@
    ```sh
    explorer.exe .
    ```
-   QUICK_NOTE: You can access to any folder in Windows from Ubuntu; type the following syntax to access c:\myfolder (myfloder in drive c)
+   QUICK_NOTE: You can access to any folder in Windows from Ubuntu; type the following syntax to access c:\myfolder ("myfloder" in drive c)
    ```sh
    cd /mnt/c/myfolder
    ```
-3. Configure WSL
-* Lets link Create folder "Prject" in the drive C (or any other drive) and create two folders sourcefiles
-sudo ln -s /mnt/c/Projects/sourcefiles ~/src
-sudo ln -s /mnt/c/Projects/ARTY_base ~/prj
-sudo dpkg --add-architecture i386
-sudo apt-get update
-sudo apt-get install -y gcc git make net-tools libncurses5-dev tftpd zlib1g-dev libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev zlib1g:i386 screen pax gzip
+3. Install required packages
+* Add 32-bit apps to apt-get and update apt-get
+   ```sh
+   sudo dpkg --add-architecture i386
+   sudo apt-get update
+   ```
+* Install dependencies
+   ```sh
+   sudo apt-get install -y gcc git make net-tools libncurses5-dev tftpd zlib1g-dev libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev zlib1g:i386 screen pax gzip
+   ```
+
 
 
 
