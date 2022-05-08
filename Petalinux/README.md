@@ -92,21 +92,28 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
   ```
 
  ## Part 4:  Create tcl file and program the FPGA from Windows
-**1. Make a virtual drive for WSL**
+**1. Make a virtual drive for WSL_Ubunto to be able to access it from Windows**
 * Go to \\wsl$\ in file explorer, then dragging the folder onto "This PC" in the navigation pane. WSL will now be accessible through a drive called Y:/, Z:/, or something similar.
 
-**2. Create tcl commands**
+**2. Create a tcl file**
   * Go back to WSL environment and create a TCL file
   ```sh
   petalinux-boot --jtag --fpga --kernel --tcl FPGA.tcl
   ```
 **2. Modify tcl files**
-* copy FPGA.tcl to a folder in Windows
-* open it using notpad++ 
+* copy FPGA.tcl from WSL_Ubunto to a folder in Windows
+* open it using a text editor (e.g. notpad++) 
 * add <your WSL drive letter>:/ to the beginning of each path inside the tcl file
+* save it
+	
+**3. Run tcl file using a bat file**
+* Create a text file beside the tcl file using a text editor and write the following command
+  ```sh
+  C:\[Path_To_Xilinx_Installation_Folder]\Vitis\2021.2\bin\xsct.bat program.tcl
+  ```
+* save it as a bat file (e.g. Prog.bat)
 
-
-
+**4. Connect the FPGA board (ARTY board) and program it by running the bat file (Prog.bat)**
 	
 ## Reference
 	[1] https://yangyt96.github.io/2021/04/14/petalinux-on-windows-10-with-wsl.html
