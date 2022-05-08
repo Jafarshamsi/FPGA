@@ -1,7 +1,7 @@
 # Run Petalinux on ARTY-A7-100T
 ***
 
-Part 1 - Petalinux and WSL
+## Part 1: Install WSL & Petalinux tools
 1. Install WSL UBUNTU 18.04 LTS (open powershell)
 wsl --install -d Ubuntu-18.04
 explorer.exe .
@@ -194,3 +194,8 @@ git push https://github.com/Jafarshamsi/PETALINUX.git
 
 
 Part 4 - Setting up the windows project
+
+	
+## Reference
+	[1] https://yangyt96.github.io/2021/04/14/petalinux-on-windows-10-with-wsl.html
+	[2] https://doayee.co.uk/petalinux-on-windows-via-wsl-and-git/
