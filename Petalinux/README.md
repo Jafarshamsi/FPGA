@@ -2,21 +2,23 @@
 ***
 
 ## Part 1: Install WSL & Petalinux tools
-1. Open Powershell as administartor
+1. Open Windows powershell as administartor
 2. Install WSL Ubuntu-18.04 LTS
    ```sh
    wsl --install -d Ubuntu-18.04
    ```
-   NOTE: you can open the installation folder of Ubuntu in windows explorer using the following syntax in Ubuntu:
+   QUICK_NOTE: Want to know where it is? Open Ubuntu-18.04 LTS (it is in the windows start menu) and type the following syntax to see the installation folder:
    ```sh
    explorer.exe .
    ```
-
-
-2. Configure WSL
-(INSIDE UBUNTU)
-sudo ln -s /mnt/e/Projects/sourcefiles ~/src
-sudo ln -s /mnt/e/Projects/ARTY_base ~/prj
+   QUICK_NOTE: You can access to any floder in Windows from Ubuntu; type the following syntax to access c:/myfolder 
+   ```sh
+   cd /mnt/c/myfolder
+   ```
+3. Configure WSL
+* Lets link Create folder "Prject" in the drive C (or any other drive) and create two folders sourcefiles
+sudo ln -s /mnt/c/Projects/sourcefiles ~/src
+sudo ln -s /mnt/c/Projects/ARTY_base ~/prj
 sudo dpkg --add-architecture i386
 sudo apt-get update
 sudo apt-get install -y gcc git make net-tools libncurses5-dev tftpd zlib1g-dev libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev zlib1g:i386 screen pax gzip
