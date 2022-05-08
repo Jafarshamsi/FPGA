@@ -114,7 +114,15 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
 * save it as a bat file (e.g. Prog.bat)
 
 **4. Connect the FPGA board (ARTY board) and program it by running the bat file (Prog.bat)**
-	
+
+**5. Open putty or mobaXterm or any similar application and connect to the FPGA board through Serial Port
+
+**6. After booting, test it using 
+   ```sh
+   root@arty_petalinux:~# python3
+   >>>> print("Hello World")
+  ```
+
 ## Reference
 	[1] https://yangyt96.github.io/2021/04/14/petalinux-on-windows-10-with-wsl.html
 	[2] https://doayee.co.uk/petalinux-on-windows-via-wsl-and-git/
