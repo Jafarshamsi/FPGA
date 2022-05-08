@@ -25,7 +25,7 @@
    ```sh
    sudo apt-get install -y gcc git make net-tools libncurses5-dev tftpd zlib1g-dev libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev zlib1g:i386 screen pax gzip
    ```
- ## Part 2: Install Petalinux tools
+ ## Part 2: Install Petalinux tools & apply some configurations
 **1. download petalinux-v2021.2 ("petalinux-v2021.2-final-installer.run")**
 [source files (petalinux-v2021.2-final-installer.run)]
 https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html
@@ -40,12 +40,12 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
   cd petalinux
   ./petalinux-v2021.2-final-installer.run
   ```
-**4. Edit some language parameters **
+**4. Edit some language parameters**
   ```sh
   sudo dpkg-reconfigure locales 
   sudo update-locale LANG=en_US.UTF-8
   ```
-**6. On Ubuntu, /bin/sh is a symbolic link to dash. You need to make it a symbolic link to bash instead. Run the following syntax and answer “no” **
+**6. On Ubuntu, /bin/sh is a symbolic link to dash. You need to make it a symbolic link to bash instead. Run the following syntax and answer “no”**
   ```sh
   sudo dpkg-reconfigure dash
   ```
@@ -53,10 +53,17 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
   ```sh
   source ~/petalinux/settings.sh
   ```
+  QUICK_NOTE: You can check to see if it is running. Using the following syntax you will receive the petalinux locaton
+  ```sh
+  echo $PETALINUX
+  ```
+  
+ ## Part 3:  Creating and building a petalinux project
+1. Create a project directory
+  ```sh
+  cd ~/petalinux
+  ```
 
-Part 2 – Creating and building a petalinux project
-Step 1: Create a project directory
-cd ~/petalinux
 mkdir projects
 
 Step 2: Create the project
