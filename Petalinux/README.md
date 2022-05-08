@@ -2,8 +2,8 @@
 ***
 
 ## Part 1: Install WSL & Petalinux tools
-1. Open Windows powershell as administartor
-2. Install WSL Ubuntu-18.04 LTS
+**1. Open Windows powershell as administartor**
+**2. Install WSL Ubuntu-18.04 LTS**
    ```sh
    wsl --install -d Ubuntu-18.04
    ```
@@ -15,7 +15,7 @@
    ```sh
    cd /mnt/c/myfolder
    ```
-3. Install required packages
+**3. Install required packages**
 * Add 32-bit apps to apt-get and update apt-get
    ```sh
    sudo dpkg --add-architecture i386
