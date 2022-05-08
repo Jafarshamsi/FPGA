@@ -45,11 +45,11 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
   sudo dpkg-reconfigure locales 
   sudo update-locale LANG=en_US.UTF-8
   ```
-**6. On Ubuntu, /bin/sh is a symbolic link to dash. You need to make it a symbolic link to bash instead. Run the following syntax and answer “no”**
+**5. On Ubuntu, /bin/sh is a symbolic link to dash. You need to make it a symbolic link to bash instead. Run the following syntax and answer “no”**
   ```sh
   sudo dpkg-reconfigure dash
   ```
-**7. Run the petalinux tools (don’t worry about the tftp warrning!)**
+**6. Run the petalinux tools (don’t worry about the tftp warrning!)**
   ```sh
   source ~/petalinux/settings.sh
   ```
@@ -59,7 +59,7 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
   ```
   
  ## Part 3:  Creating and building a petalinux project
-1. Create a project directory
+**1. Create a project directory**
   ```sh
   cd ~/petalinux
   ```
