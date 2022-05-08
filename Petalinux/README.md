@@ -11,7 +11,7 @@
    ```sh
    explorer.exe .
    ```
-   QUICK_NOTE: You can access to any floder in Windows from Ubuntu; type the following syntax to access c:/myfolder 
+   QUICK_NOTE: You can access to any folder in Windows from Ubuntu; type the following syntax to access c:\myfolder (myfloder in drive c)
    ```sh
    cd /mnt/c/myfolder
    ```
