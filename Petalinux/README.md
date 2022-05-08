@@ -7,7 +7,7 @@
    ```sh
    wsl --install -d Ubuntu-18.04
    ```
-   NOTE: you can see the installation folder of Ubuntu in Windows using the following syntax in Ubuntu:
+   NOTE: you can open the installation folder of Ubuntu in windows explorer using the following syntax in Ubuntu:
    ```sh
    explorer.exe .
    ```
