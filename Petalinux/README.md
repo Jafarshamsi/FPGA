@@ -26,29 +26,30 @@
    sudo apt-get install -y gcc git make net-tools libncurses5-dev tftpd zlib1g-dev libssl-dev flex bison libselinux1 gnupg wget diffstat chrpath socat xterm autoconf libtool tar unzip texinfo zlib1g-dev gcc-multilib build-essential libsdl1.2-dev libglib2.0-dev zlib1g:i386 screen pax gzip
    ```
  ## Part 2: Install Petalinux tools
-1. download petalinux-v2021.2 ("petalinux-v2021.2-final-installer.run")  [source files (petalinux-v2021.2-final-installer.run)]
+**1. download petalinux-v2021.2 ("petalinux-v2021.2-final-installer.run")**
+[source files (petalinux-v2021.2-final-installer.run)]
 https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/embedded-design-tools.html
 
-2. Create folder "petalinux" in WSL_Ubuntu and copy the file "petalinux-v2021.2-final-installer.run" from Windows to a folder in WSL_Ubuntu
+**2. Create folder "petalinux" in WSL_Ubuntu and copy the file "petalinux-v2021.2-final-installer.run" from Windows to a folder in WSL_Ubuntu**
    ```sh
    mkdir petalinux
    cp /mnt/[YOUR DOWNLOAD FOLDER]/petalinux-v2021.2-final-installer.run petalinux
    ```
-3. run the source file "petalinux-v2021.2-final-installer.run"
+**3. run the source file "petalinux-v2021.2-final-installer.run"**
   ```sh
   cd petalinux
   ./petalinux-v2021.2-final-installer.run
   ```
-4: Edit some language parameters 
+**4. Edit some language parameters **
   ```sh
   sudo dpkg-reconfigure locales 
   sudo update-locale LANG=en_US.UTF-8
   ```
-6: On Ubuntu, /bin/sh is a symbolic link to dash. You need to make it a symbolic link to bash instead. Run the following syntax and answer “no”: 
+**6. On Ubuntu, /bin/sh is a symbolic link to dash. You need to make it a symbolic link to bash instead. Run the following syntax and answer “no” **
   ```sh
   sudo dpkg-reconfigure dash
   ```
-5: Run the petalinux tools (don’t worry about the tftp warrning!)
+**7. Run the petalinux tools (don’t worry about the tftp warrning!)**
   ```sh
   source ~/petalinux/settings.sh
   ```
