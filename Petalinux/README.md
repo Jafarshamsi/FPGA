@@ -121,7 +121,7 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
 
 **6. Open putty or mobaXterm or any similar application and connect to the FPGA board through Serial Port**
 
-**7. After booting, test it using **
+**7. After booting, test it using**
    ```sh
    root@arty_petalinux:~# python3
    >>>> print("Hello World")
