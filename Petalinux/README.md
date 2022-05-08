@@ -7,7 +7,7 @@
    ```sh
    wsl --install -d Ubuntu-18.04
    ```
-note: you can see the location of WSL in Windows by typing:
+   note: you can see the location of WSL in Windows by typing:
    ```sh
    explorer.exe .
    ```
