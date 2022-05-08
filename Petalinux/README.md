@@ -106,7 +106,7 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
   ```sh
   petalinux-boot --jtag --fpga --kernel --tcl FPGA.tcl
   ```
-**2. Modify tcl files**
+**2. Modify the tcl file**
 * copy FPGA.tcl from WSL_Ubunto to a folder in Windows
 * open it using a text editor (e.g. notpad++) 
 * add <your WSL drive letter>:/ to the beginning of each path inside the tcl file
