@@ -1,4 +1,4 @@
-# Run Petalinux on ARTY-A7-100T
+# Run Petalinux on ARTY-A7-100T (Under development)
 ***
 
 ## Part 1: Create a base project including a Microblaze processor and interfaces for ARTY board
