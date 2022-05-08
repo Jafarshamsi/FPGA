@@ -106,24 +106,24 @@ https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav
   ```sh
   petalinux-boot --jtag --fpga --kernel --tcl FPGA.tcl
   ```
-**2. Modify the tcl file**
-* copy FPGA.tcl from WSL_Ubunto to a folder in Windows
-* open it using a text editor (e.g. notpad++) 
-* add <your WSL drive letter>:/ to the beginning of each path inside the tcl file
-* save it
+  
+**3. Modify the tcl file**
+copy FPGA.tcl from WSL_Ubunto to a folder in Windows
+open it using a text editor (e.g. notpad++) 
+add <your WSL drive letter>:/ to the beginning of each path inside the tcl file
 	
-**3. Run tcl file using a bat file**
+**4. Run tcl file using a bat file**
 * Create a text file beside the tcl file using a text editor and write the following command
   ```sh
   C:\[Path_To_Xilinx_Installation_Folder]\Vitis\2021.2\bin\xsct.bat program.tcl
   ```
 * save it as a bat file (e.g. Prog.bat)
 
-**4. Connect the FPGA board (ARTY board) and program it by running the bat file (Prog.bat)**
+**5. Connect the FPGA board (ARTY board) and program it by running the bat file (Prog.bat)**
 
-**5. Open putty or mobaXterm or any similar application and connect to the FPGA board through Serial Port
+**6. Open putty or mobaXterm or any similar application and connect to the FPGA board through Serial Port
 
-**6. After booting, test it using 
+**7. After booting, test it using 
    ```sh
    root@arty_petalinux:~# python3
    >>>> print("Hello World")
