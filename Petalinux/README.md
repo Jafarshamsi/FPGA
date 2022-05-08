@@ -3,12 +3,15 @@
 
 ## Part 1: Install WSL & Petalinux tools
 1. Open Powershell as administartor
-2. Install WSL UBUNTU 18.04 LTS
+2. Install WSL Ubuntu-18.04 LTS
    ```sh
    wsl --install -d Ubuntu-18.04
    ```
+note: you can see the location of WSL in Windows by typing:
+   ```sh
+   explorer.exe .
+   ```
 
-explorer.exe .
 
 2. Configure WSL
 (INSIDE UBUNTU)
