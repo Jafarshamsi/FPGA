@@ -23,9 +23,9 @@ entity HND_SHK is
            input_irdy : in STD_LOGIC;
            input_oack : out STD_LOGIC;
 		   -- handshaking output
-           input_od : out STD_LOGIC_VECTOR (7 downto 0);
-           input_ordy : out STD_LOGIC;
-           input_iack : in STD_LOGIC);
+           output_od : out STD_LOGIC_VECTOR (7 downto 0);
+           output_ordy : out STD_LOGIC;
+           output_iack : in STD_LOGIC);
 end HND_SHK;
 
 
