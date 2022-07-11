@@ -33,53 +33,8 @@ end HND_SHK;
 
 architecture Behavioral of HND_SHK is
 
---declaration
-component UART_RX is
-    generic (
-        BR_cnfg : integer := BR_cnfg     -- Configuration of baudarte = Frq/BR_cnfg
-    );
-    Port ( clk : in STD_LOGIC;
-           rst : in STD_LOGIC;
-           rx : in STD_LOGIC;
-           rx_od : out STD_LOGIC_VECTOR (7 downto 0);
-           rx_ordy : out STD_LOGIC;
-           rx_iack : in STD_LOGIC);
-end component;
-
-component UART_TX is
-    generic (
-        BR_cnfg : integer := 1     -- Configuration of baudarte = Frq/BR_cnfg
-    );
-    Port ( clk : in STD_LOGIC;
-           rst : in STD_LOGIC;
-           tx : out STD_LOGIC;
-           tx_id : in STD_LOGIC_VECTOR (7 downto 0);
-           tx_irdy : in STD_LOGIC;
-           tx_oack : out STD_LOGIC);
-end component;
-
 
 begin
 
---Instantiation
-UART_RX_inst: UART_RX 
-    port map (
-        clk => clk,
-        rst => rst,
-        rx => rx,
-        rx_od => rx_od,
-        rx_ordy => rx_ordy,
-        rx_iack => rx_iack
-    );
-    
-UART_TX_inst: UART_TX 
-    port map (
-        clk => clk,
-        rst => rst,
-        tx => tx,
-        tx_id => tx_id,
-        tx_irdy => tx_irdy,
-        tx_oack => tx_oack
-    );
     
 end Behavioral;
