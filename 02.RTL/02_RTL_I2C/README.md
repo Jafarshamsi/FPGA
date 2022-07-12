@@ -2,4 +2,4 @@
 ***
 Credit: [Digikey Forum](https://forum.digikey.com/t/i2c-master-vhdl/12797)
 
-![alt text]([http://url/to/img.png](https://github.com/Jafarshamsi/FPGA/tree/main/02.RTL/02_RTL_I2C/Img/1.jepg))
+![alt text](https://github.com/Jafarshamsi/FPGA/tree/main/02.RTL/02_RTL_I2C/Img/1.jepg)
