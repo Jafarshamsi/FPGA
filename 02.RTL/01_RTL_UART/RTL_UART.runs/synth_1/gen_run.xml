@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35ticsg324-1L" LaunchTime="1657646839">
+  <File Type="PA-TCL" Name="TOP_UART_ECHO_TEST.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="TOP_UART_ECHO_TEST_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="TOP_UART_ECHO_TEST_reports.tcl"/>
+  <File Type="RDS-RDS" Name="TOP_UART_ECHO_TEST.vds"/>
+  <File Type="RDS-UTIL" Name="TOP_UART_ECHO_TEST_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="TOP_UART_ECHO_TEST_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="TOP_UART_ECHO_TEST.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="TOP_UART_ECHO_TEST_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="TOP_UART_ECHO_TEST_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/UART.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../I2C/I2C.srcs/sources_1/new/UART.vhd"/>
+        <Attr Name="ImportTime" Val="1657644096"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/UART_RX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../I2C/I2C.srcs/sources_1/new/UART_RX.vhd"/>
+        <Attr Name="ImportTime" Val="1657645664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/UART_TX.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../I2C/I2C.srcs/sources_1/new/UART_TX.vhd"/>
+        <Attr Name="ImportTime" Val="1657577333"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/TOP_UART_ECHO_TEST.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../I2C/I2C.srcs/sources_1/new/TOP_UART_ECHO_TEST.vhd"/>
+        <Attr Name="ImportTime" Val="1657644120"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TOP_UART_ECHO_TEST"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Arty-A7-35-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../I2C/I2C.srcs/constrs_1/imports/digilent-xdc-master/Arty-A7-35-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1657645041"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2021">
+      <Desc>Vivado Synthesis Defaults</Desc>
+    </StratHandle>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
